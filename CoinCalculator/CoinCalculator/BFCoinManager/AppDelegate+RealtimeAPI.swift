@@ -14,4 +14,13 @@ extension AppDelegate : PNObjectEventListener {
     func client(_ client: PubNub, didReceiveMessage message: PNMessageResult) {
 
         // Handle new message stored in message.data.message
-        if message.data.channel != mess
+        if message.data.channel != message.data.subscription {
+
+            // Message has been received on channel group stored in message.data.subscription.
+        }
+        else {
+
+            // Message has been received on channel stored in message.data.channel.
+        }
+
+   
