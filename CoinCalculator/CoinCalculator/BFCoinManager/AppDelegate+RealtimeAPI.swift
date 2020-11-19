@@ -23,4 +23,9 @@ extension AppDelegate : PNObjectEventListener {
             // Message has been received on channel stored in message.data.channel.
         }
 
-   
+        guard let dataMessage = message.data.message else {
+            print("Received no message data.")
+            return;
+        }
+
+        //print("Received message: \(dataMessage) on channel \(message.data.channel) " + "at \(mes
