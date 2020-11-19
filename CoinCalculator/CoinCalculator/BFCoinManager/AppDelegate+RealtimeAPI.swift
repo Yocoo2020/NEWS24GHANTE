@@ -38,4 +38,10 @@ extension AppDelegate : PNObjectEventListener {
     func client(_ client: PubNub, didReceivePresenceEvent event: PNPresenceEventResult) {
 
         // Handle presence event event.data.presenceEvent (one of: join, leave, timeout, state-change).
-        if event.data.channel !=
+        if event.data.channel != event.data.subscription {
+
+            // Presence event has been received on channel group stored in event.data.subscription.
+        }
+        else {
+
+            // Presence event has been received on channel stored in event.data.channe
