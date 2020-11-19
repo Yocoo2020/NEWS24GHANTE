@@ -28,4 +28,11 @@ extension AppDelegate : PNObjectEventListener {
             return;
         }
 
-        //print("Received message: \(dataMessage) on channel \(message.data.channel) " + "at \(mes
+        //print("Received message: \(dataMessage) on channel \(message.data.channel) " + "at \(message.data.timetoken)")
+        
+        //更新処理
+        BFCoinManager.shared.realtimeDidReceiveMessage(dataMessage, channel:message.data.channel, timeToken:message.data.timetoken)
+    }
+
+    // New presence event handling.
+    func
