@@ -44,4 +44,14 @@ extension AppDelegate : PNObjectEventListener {
         }
         else {
 
-            // Presence event has been received on channel stored in event.data.channe
+            // Presence event has been received on channel stored in event.data.channel.
+        }
+
+
+        guard let uuid = event.data.presence.uuid else {
+            print("Received no uuid data.")
+            return;
+        }
+
+        guard let state = event.data.presence.state else {
+            pri
