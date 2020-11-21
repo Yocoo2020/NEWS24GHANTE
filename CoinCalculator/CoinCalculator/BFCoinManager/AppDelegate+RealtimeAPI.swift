@@ -54,4 +54,11 @@ extension AppDelegate : PNObjectEventListener {
         }
 
         guard let state = event.data.presence.state else {
-            pri
+            print("Received no uuid state.")
+            return;
+        }
+
+        if event.data.presenceEvent != "state-change" {
+
+            print("\(uuid) \"\(event.data.presenceEvent)'ed\"\n" +
+                "at: \(event.data.presence.
