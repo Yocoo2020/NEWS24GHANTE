@@ -61,4 +61,10 @@ extension AppDelegate : PNObjectEventListener {
         if event.data.presenceEvent != "state-change" {
 
             print("\(uuid) \"\(event.data.presenceEvent)'ed\"\n" +
-                "at: \(event.data.presence.
+                "at: \(event.data.presence.timetoken) on \(event.data.channel) " +
+                "(Occupancy: \(event.data.presence.occupancy))");
+        }
+        else {
+
+            print("\(uuid) changed state at: " +
+                "\(event.data.presence.timetoken) on \
