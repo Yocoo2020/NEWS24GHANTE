@@ -67,4 +67,14 @@ extension AppDelegate : PNObjectEventListener {
         else {
 
             print("\(uuid) changed state at: " +
-                "\(event.data.presence.timetoken) on \
+                "\(event.data.presence.timetoken) on \(event.data.channel) to:\n" +
+                "\(state)");
+        }
+    }
+
+    // Handle subscription status change.
+    func client(_ client: PubNub, didReceive status: PNStatus) {
+
+        if status.operation == .subscribeOperation {
+
+    
