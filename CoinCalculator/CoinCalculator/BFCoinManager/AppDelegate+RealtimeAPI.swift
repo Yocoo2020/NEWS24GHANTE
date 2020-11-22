@@ -87,4 +87,9 @@ extension AppDelegate : PNObjectEventListener {
 
                     // Select last object from list of channels and send message to it.
                     let targetChannel = client.channels().last!
-                    client.publish("Hello from the PubNub Swift SDK
+                    client.publish("Hello from the PubNub Swift SDK", toChannel: targetChannel,
+                                   compressed: false, withCompletion: { (publishStatus) -> Void in
+
+                                    if !publishStatus.isError {
+
+                                
