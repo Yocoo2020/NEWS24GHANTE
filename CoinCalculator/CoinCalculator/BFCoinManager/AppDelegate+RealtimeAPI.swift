@@ -77,4 +77,7 @@ extension AppDelegate : PNObjectEventListener {
 
         if status.operation == .subscribeOperation {
 
-    
+            // Check whether received information about successful subscription or restore.
+            if status.category == .PNConnectedCategory || status.category == .PNReconnectedCategory {
+
+                let subscribeStatus: PNSubscribeStatus =
