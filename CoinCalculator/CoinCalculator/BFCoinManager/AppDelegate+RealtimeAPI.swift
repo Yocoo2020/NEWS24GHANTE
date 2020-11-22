@@ -85,4 +85,6 @@ extension AppDelegate : PNObjectEventListener {
 
                     // This is expected for a subscribe, this means there is no error or issue whatsoever.
 
-                    // Sel
+                    // Select last object from list of channels and send message to it.
+                    let targetChannel = client.channels().last!
+                    client.publish("Hello from the PubNub Swift SDK
