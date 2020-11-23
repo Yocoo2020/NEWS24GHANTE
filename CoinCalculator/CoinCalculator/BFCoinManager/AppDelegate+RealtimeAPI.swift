@@ -92,4 +92,9 @@ extension AppDelegate : PNObjectEventListener {
 
                                     if !publishStatus.isError {
 
-                                
+                                        // Message successfully published to specified channel.
+                                    }
+                                    else {
+
+                                        /**
+                                       
