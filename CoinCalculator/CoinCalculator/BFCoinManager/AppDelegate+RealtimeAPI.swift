@@ -97,4 +97,6 @@ extension AppDelegate : PNObjectEventListener {
                                     else {
 
                                         /**
-                                       
+                                         Handle message publish error. Check 'category' property to find out
+                                         possible reason because of which request did fail.
+                                         Review 'errorData' property (which has PNE
