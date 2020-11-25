@@ -103,4 +103,11 @@ extension AppDelegate : PNObjectEventListener {
                                          object to get additional information about issue.
 
                                          Request can be resent using: publishStatus.retry()
-                              
+                                         */
+                                    }
+                    })
+                }
+                else {
+
+                    /**
+                     This usually occurs if subscribe temporarily fails but reconnects. This m
