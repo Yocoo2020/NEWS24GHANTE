@@ -118,3 +118,8 @@ extension AppDelegate : PNObjectEventListener {
             else if status.category == .PNUnexpectedDisconnectCategory {
 
                 /**
+                 This is usually an issue with the internet connection, this is an error, handle
+                 appropriately retry will be called automatically.
+                 */
+            }
+                //
