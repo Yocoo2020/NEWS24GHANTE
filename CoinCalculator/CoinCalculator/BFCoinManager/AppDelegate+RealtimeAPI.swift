@@ -110,4 +110,11 @@ extension AppDelegate : PNObjectEventListener {
                 else {
 
                     /**
-                     This usually occurs if subscribe temporarily fails but reconnects. This m
+                     This usually occurs if subscribe temporarily fails but reconnects. This means there was
+                     an error but there is no longer any issue.
+                     */
+                }
+            }
+            else if status.category == .PNUnexpectedDisconnectCategory {
+
+                /**
