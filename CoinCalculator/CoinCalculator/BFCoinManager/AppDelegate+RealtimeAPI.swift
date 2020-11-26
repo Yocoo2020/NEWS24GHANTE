@@ -122,4 +122,8 @@ extension AppDelegate : PNObjectEventListener {
                  appropriately retry will be called automatically.
                  */
             }
-                //
+                // Looks like some kind of issues happened while client tried to subscribe or disconnected from
+                // network.
+            else {
+
+                let errorStatus: PNErrorStatus = status as! PNErrorStatus
