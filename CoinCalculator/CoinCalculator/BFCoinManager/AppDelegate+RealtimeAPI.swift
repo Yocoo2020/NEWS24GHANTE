@@ -127,3 +127,8 @@ extension AppDelegate : PNObjectEventListener {
             else {
 
                 let errorStatus: PNErrorStatus = status as! PNErrorStatus
+                if errorStatus.category == .PNAccessDeniedCategory {
+
+                    /**
+                     This means that PAM does allow this client to subscribe to this channel and channel group
+                     c
