@@ -137,4 +137,7 @@ extension AppDelegate : PNObjectEventListener {
                 else {
 
                     /**
-                     More errors can be directly specified by creating explicit cases for ot
+                     More errors can be directly specified by creating explicit cases for other error categories
+                     of `PNStatusCategory` such as: `PNDecryptionErrorCategory`,
+                     `PNMalformedFilterExpressionCategory`, `PNMalformedResponseCategory`, `PNTimeoutCategory`
+             
