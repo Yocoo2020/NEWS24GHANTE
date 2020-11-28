@@ -131,4 +131,10 @@ extension AppDelegate : PNObjectEventListener {
 
                     /**
                      This means that PAM does allow this client to subscribe to this channel and channel group
-                     c
+                     configuration. This is another explicit error.
+                     */
+                }
+                else {
+
+                    /**
+                     More errors can be directly specified by creating explicit cases for ot
