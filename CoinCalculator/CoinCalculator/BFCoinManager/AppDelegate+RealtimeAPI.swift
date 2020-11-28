@@ -140,4 +140,11 @@ extension AppDelegate : PNObjectEventListener {
                      More errors can be directly specified by creating explicit cases for other error categories
                      of `PNStatusCategory` such as: `PNDecryptionErrorCategory`,
                      `PNMalformedFilterExpressionCategory`, `PNMalformedResponseCategory`, `PNTimeoutCategory`
-             
+                     or `PNNetworkIssuesCategory`
+                     */
+                }
+            }
+        }
+    }
+}
+
