@@ -26,4 +26,11 @@ final class BFCoinManager {
     private var observers = Array<BFCoinManagerDataChanged>()
     
     
-    //
+    //var context : Dictionary?
+    static let shared: BFCoinManager = BFCoinManager()
+    
+    private init() {
+        
+        //setup realtime client
+//        self.requestAPi = BFCoinAPI()
+        self.realtimeClient = BFCoinRealti
