@@ -10,4 +10,13 @@ import Foundation
 import PubNub
 
 protocol BFCoinManagerDataChanged : AnyObject {
-    func coinDataDidLoad(_ context:
+    func coinDataDidLoad(_ context:BFContext)
+    func coinDataChanged(channel: Channel, productCode: String, data:Any)
+}
+
+final class BFCoinManager {
+    
+    open private(set) var context         : BFContext
+    
+//    private var requestAPi                : BFCoinAPI
+   
