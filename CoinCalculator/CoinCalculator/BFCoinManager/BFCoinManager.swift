@@ -19,4 +19,11 @@ final class BFCoinManager {
     open private(set) var context         : BFContext
     
 //    private var requestAPi                : BFCoinAPI
-   
+    open private(set) var realtimeApi     : BFCoinRealtimeAPI
+    open private(set) var realtimeClient  : PubNub
+    open var contextLoaded = false
+    
+    private var observers = Array<BFCoinManagerDataChanged>()
+    
+    
+    //
