@@ -33,4 +33,10 @@ final class BFCoinManager {
         
         //setup realtime client
 //        self.requestAPi = BFCoinAPI()
-        self.realtimeClient = BFCoinRealti
+        self.realtimeClient = BFCoinRealtimeAPI.setupClient()
+        self.realtimeApi = BFCoinRealtimeAPI(self.realtimeClient)
+        self.context = BFContext()
+    }
+    
+    //MARK: Observer
+    open func addObserver(_ observer: BFCoinManagerDataChanged) {
