@@ -40,3 +40,14 @@ final class BFCoinManager {
     
     //MARK: Observer
     open func addObserver(_ observer: BFCoinManagerDataChanged) {
+        for item in observers {
+            if item === observer {
+                return
+            }
+        }
+        
+        //登録する
+        observers.append(observer)
+    }
+    
+    open func removeObserver(_ ob
