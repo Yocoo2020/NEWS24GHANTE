@@ -50,4 +50,12 @@ final class BFCoinManager {
         observers.append(observer)
     }
     
-    open func removeObserver(_ ob
+    open func removeObserver(_ observer: BFCoinManagerDataChanged) {
+        
+        for (index, item) in observers.enumerated() {
+            if item === observer {
+                //解除する
+                observers.remove(at: index)
+                break
+            }
+        }
