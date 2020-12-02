@@ -59,3 +59,14 @@ final class BFCoinManager {
                 break
             }
         }
+    }
+    
+    open func removeAllObserver() {
+        observers.removeAll()
+    }
+    
+    private func loadNotification(_ ctx: BFContext) {
+        
+        for observer in observers {
+            //通知する
+        
