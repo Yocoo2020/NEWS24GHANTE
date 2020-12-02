@@ -78,4 +78,14 @@ final class BFCoinManager {
         
         for observer in observers {
             //通知する
+            observer.coinDataChanged(channel: channel, productCode: productCode, data: data)
+        }
+    }
+    
+    //MARK: Start
+    func start() {
         
+        self.keepAliveCountUp()
+        
+        //Request
+        BFCoinAPI.requestMarket
