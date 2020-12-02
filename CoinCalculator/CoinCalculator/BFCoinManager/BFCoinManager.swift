@@ -69,4 +69,13 @@ final class BFCoinManager {
         
         for observer in observers {
             //通知する
+            observer.coinDataDidLoad(ctx)
+        }
+        
+    }
+    
+    private func realtimeNotification(channel:Channel, productCode: String, data: Any) {
+        
+        for observer in observers {
+            //通知する
         
