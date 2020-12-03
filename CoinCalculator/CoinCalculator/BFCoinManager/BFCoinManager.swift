@@ -101,4 +101,11 @@ final class BFCoinManager {
                 self.keepAliveCountDown()
                 
                 if let productCode = market.productCode {
-                    self.context.boards.append([productCode:
+                    self.context.boards.append([productCode:board])
+                }
+                
+            })
+            
+            self.keepAliveCountUp()
+            BFCoinAPI.requestTicker(market.productCode, completion: { (ticker) in
+                self.keepAlive
