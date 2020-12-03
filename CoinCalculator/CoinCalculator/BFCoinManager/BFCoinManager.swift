@@ -108,4 +108,12 @@ final class BFCoinManager {
             
             self.keepAliveCountUp()
             BFCoinAPI.requestTicker(market.productCode, completion: { (ticker) in
-                self.keepAlive
+                self.keepAliveCountDown()
+                
+                self.context.tickers.append(ticker)
+                
+            })
+            
+            self.keepAliveCountUp()
+            BFCoinAPI.requestExecutions(market.productCode,
+            
