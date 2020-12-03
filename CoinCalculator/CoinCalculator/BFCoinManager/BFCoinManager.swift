@@ -97,4 +97,8 @@ final class BFCoinManager {
         
         for market in self.context.markets {
             self.keepAliveCountUp()
-           
+            BFCoinAPI.requestBoard(market.productCode, completion: { (board) in
+                self.keepAliveCountDown()
+                
+                if let productCode = market.productCode {
+                    self.context.boards.append([productCode:
