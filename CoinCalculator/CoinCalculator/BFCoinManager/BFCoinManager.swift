@@ -88,4 +88,13 @@ final class BFCoinManager {
         self.keepAliveCountUp()
         
         //Request
-        BFCoinAPI.requestMarket
+        BFCoinAPI.requestMarkets { (markets) in
+            self.context.markets = markets
+            self.keepAliveCountDown()
+        }
+        
+        waitKeepAlive()
+        
+        for market in self.context.markets {
+            self.keepAliveCountUp()
+           
