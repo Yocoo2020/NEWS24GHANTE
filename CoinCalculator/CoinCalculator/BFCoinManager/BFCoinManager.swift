@@ -116,4 +116,8 @@ final class BFCoinManager {
             
             self.keepAliveCountUp()
             BFCoinAPI.requestExecutions(market.productCode,
-            
+                                        before: nil,
+                                        after: nil,
+                                        count: BFContext.maxExecutionCount,
+                                        completion: { (executions) in
+                     
