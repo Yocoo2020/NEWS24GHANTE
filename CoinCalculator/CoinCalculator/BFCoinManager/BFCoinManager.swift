@@ -137,4 +137,9 @@ final class BFCoinManager {
                     self.context.boardStates[productCode] = boardState
                 }
             })
-        
+            
+            self.keepAliveCountUp()
+            BFCoinAPI.requestHealth(nil, completion: { (health) in
+                self.keepAliveCountDown()
+                
+                if let productCode = market.productC
