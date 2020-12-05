@@ -120,4 +120,8 @@ final class BFCoinManager {
                                         after: nil,
                                         count: BFContext.maxExecutionCount,
                                         completion: { (executions) in
-                     
+                                            
+                                            self.keepAliveCountDown()
+                
+                                            if let productCode = market.productCode {
+                                 
