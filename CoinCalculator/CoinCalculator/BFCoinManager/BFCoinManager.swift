@@ -130,4 +130,11 @@ final class BFCoinManager {
             })
  
             self.keepAliveCountUp()
-            BFCoinAPI.requestBoardState(market.produ
+            BFCoinAPI.requestBoardState(market.productCode, completion: { (boardState) in
+                self.keepAliveCountDown()
+                
+                if let productCode = market.productCode {
+                    self.context.boardStates[productCode] = boardState
+                }
+            })
+        
