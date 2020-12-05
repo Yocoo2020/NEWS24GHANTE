@@ -124,4 +124,10 @@ final class BFCoinManager {
                                             self.keepAliveCountDown()
                 
                                             if let productCode = market.productCode {
-                                 
+                                                self.context.executions[productCode] = executions
+                                            }
+                
+            })
+ 
+            self.keepAliveCountUp()
+            BFCoinAPI.requestBoardState(market.produ
