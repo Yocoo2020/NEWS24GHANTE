@@ -142,4 +142,14 @@ final class BFCoinManager {
             BFCoinAPI.requestHealth(nil, completion: { (health) in
                 self.keepAliveCountDown()
                 
-                if let productCode = market.productC
+                if let productCode = market.productCode {
+                    self.context.healths[productCode] = health
+                }
+            })
+        }
+        
+        waitKeepAlive()
+        
+        //1時間前チャット。データ量が多い。。
+/*
+        BFCoinAPI.requestChats(Date(
