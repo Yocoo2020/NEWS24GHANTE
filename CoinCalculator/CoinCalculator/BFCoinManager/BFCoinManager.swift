@@ -162,4 +162,10 @@ final class BFCoinManager {
         
         self.contextLoaded = true
         
-   
+        //Regist realtime message
+        for market in self.context.markets {
+            if let productCode = market.productCode {
+                self.realtimeApi.registChannelsAll(productCode)
+            }
+        }
+ 
