@@ -152,4 +152,14 @@ final class BFCoinManager {
         
         //1時間前チャット。データ量が多い。。
 /*
-        BFCoinAPI.requestChats(Date(
+        BFCoinAPI.requestChats(Date(timeIntervalSinceNow: -60*60*1), completion: {(chats) in
+            
+            self.context.chats = chats
+        })
+*/
+        
+        loadNotification(self.context)
+        
+        self.contextLoaded = true
+        
+   
