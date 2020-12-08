@@ -168,4 +168,9 @@ final class BFCoinManager {
                 self.realtimeApi.registChannelsAll(productCode)
             }
         }
+    }
+    
+    //MARK: Realtime
+    func realtimeDidReceiveMessage(_ message:Any, channel:String, timeToken:NSNumber) {
+        //print("message:\(message), channel:\(channel), timeToken:\(timeToken)")
  
