@@ -178,4 +178,11 @@ final class BFCoinManager {
         
         if channel.hasPrefix(Channel.board.rawValue) {
             //板差分
-            guard let dict = message as? [String:Any] e
+            guard let dict = message as? [String:Any] else {
+                return
+            }
+            let diffBoard = Board(dictionary: dict)
+            //Context更新
+            self.updateContextBoard(productCode, diff: diffBoard)
+            //通知
+            self.real
