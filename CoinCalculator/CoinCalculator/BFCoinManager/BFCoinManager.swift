@@ -173,4 +173,9 @@ final class BFCoinManager {
     //MARK: Realtime
     func realtimeDidReceiveMessage(_ message:Any, channel:String, timeToken:NSNumber) {
         //print("message:\(message), channel:\(channel), timeToken:\(timeToken)")
- 
+        
+        let productCode = self.productCode(channel: channel)
+        
+        if channel.hasPrefix(Channel.board.rawValue) {
+            //板差分
+            guard let dict = message as? [String:Any] e
