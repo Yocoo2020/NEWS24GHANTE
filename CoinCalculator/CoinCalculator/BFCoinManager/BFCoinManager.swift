@@ -185,4 +185,8 @@ final class BFCoinManager {
             //Context更新
             self.updateContextBoard(productCode, diff: diffBoard)
             //通知
-            self.real
+            self.realtimeNotification(channel: Channel.board, productCode: productCode, data: diffBoard)
+            
+        }else if channel.hasPrefix(Channel.ticker.rawValue) {
+            //Ticker
+            guard let 
