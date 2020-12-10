@@ -198,4 +198,11 @@ final class BFCoinManager {
             
         }else if channel.hasPrefix(Channel.executions.rawValue) {
             //Executions
-            guard let items = message
+            guard let items = message as? [Any] else {
+                return
+            }
+            
+            var diffExecutions = [Execution]()
+            for item in items {
+                if let dict = item as? [String:Any] {
+                    let executi
