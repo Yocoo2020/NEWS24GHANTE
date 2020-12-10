@@ -189,4 +189,9 @@ final class BFCoinManager {
             
         }else if channel.hasPrefix(Channel.ticker.rawValue) {
             //Ticker
-            guard let 
+            guard let dict = message as? [String:Any] else {
+                return
+            }
+            let diffTicker = Ticker(dictionary: dict)
+            self.updateContextTicker(productCode, diff: diffTicker)
+            self.re
