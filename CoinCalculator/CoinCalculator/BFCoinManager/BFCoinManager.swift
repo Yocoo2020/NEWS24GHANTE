@@ -194,4 +194,8 @@ final class BFCoinManager {
             }
             let diffTicker = Ticker(dictionary: dict)
             self.updateContextTicker(productCode, diff: diffTicker)
-            self.re
+            self.realtimeNotification(channel: Channel.ticker, productCode: productCode, data: diffTicker)
+            
+        }else if channel.hasPrefix(Channel.executions.rawValue) {
+            //Executions
+            guard let items = message
