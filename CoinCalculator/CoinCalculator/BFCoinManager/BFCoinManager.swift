@@ -205,4 +205,10 @@ final class BFCoinManager {
             var diffExecutions = [Execution]()
             for item in items {
                 if let dict = item as? [String:Any] {
-                    let executi
+                    let execution = Execution(dictionary: dict)
+                    diffExecutions.append(execution)
+                }
+            }
+
+            self.updateContextExecution(productCode, diff: diffExecutions)
+            self.realtimeNotification(channe
