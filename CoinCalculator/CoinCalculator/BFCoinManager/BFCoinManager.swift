@@ -224,4 +224,8 @@ final class BFCoinManager {
         let offset =
         channel.hasPrefix(Channel.board.rawValue) ? Channel.board.rawValue.utf16.count :
         channel.hasPrefix(Channel.ticker.rawValue) ? Channel.ticker.rawValue.utf16.count :
-        channel.hasPrefix(Channel.executions.rawValue) ? Channel
+        channel.hasPrefix(Channel.executions.rawValue) ? Channel.executions.rawValue.utf16.count : 0
+        
+        let productCode = String(channel[channel.index(channel.startIndex,
+                                                       offsetBy: offset)...])    //指定インデックスから終端まで
+    
