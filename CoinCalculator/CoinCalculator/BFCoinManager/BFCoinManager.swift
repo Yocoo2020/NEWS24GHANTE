@@ -211,4 +211,15 @@ final class BFCoinManager {
             }
 
             self.updateContextExecution(productCode, diff: diffExecutions)
-            self.realtimeNotification(channe
+            self.realtimeNotification(channel: Channel.executions, productCode: productCode, data: diffExecutions)
+            
+        }
+        
+        
+        
+    }
+    
+    private func productCode(channel:String)-> String {
+        
+        let offset =
+        chann
