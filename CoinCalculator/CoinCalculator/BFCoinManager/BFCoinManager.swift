@@ -222,4 +222,6 @@ final class BFCoinManager {
     private func productCode(channel:String)-> String {
         
         let offset =
-        chann
+        channel.hasPrefix(Channel.board.rawValue) ? Channel.board.rawValue.utf16.count :
+        channel.hasPrefix(Channel.ticker.rawValue) ? Channel.ticker.rawValue.utf16.count :
+        channel.hasPrefix(Channel.executions.rawValue) ? Channel
