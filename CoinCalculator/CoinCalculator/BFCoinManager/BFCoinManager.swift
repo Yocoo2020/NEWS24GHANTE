@@ -236,4 +236,13 @@ final class BFCoinManager {
         
         for (index, dict) in self.context.boards.enumerated() {
             if var board = dict[productCode] {
-            
+                board.diffUpdate(diff)
+                self.context.boards[index] = [productCode : board]
+                break
+            }
+        }
+    }
+    
+    private func updateContextTicker(_ productCode:String, diff: Ticker) {
+        
+     
