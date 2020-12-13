@@ -228,4 +228,12 @@ final class BFCoinManager {
         
         let productCode = String(channel[channel.index(channel.startIndex,
                                                        offsetBy: offset)...])    //指定インデックスから終端まで
+        
+        return productCode
+    }
     
+    private func updateContextBoard(_ productCode:String, diff: Board) {
+        
+        for (index, dict) in self.context.boards.enumerated() {
+            if var board = dict[productCode] {
+            
