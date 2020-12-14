@@ -251,4 +251,14 @@ final class BFCoinManager {
                 continue
             }
             if code == productCode {
-                self.con
+                self.context.tickers.remove(at: index)
+                break
+            }
+        }
+        
+        self.context.tickers.append(diff)
+    }
+    
+    private func updateContextExecution(_ productCode:String, diff: [Execution]) {
+        
+   
