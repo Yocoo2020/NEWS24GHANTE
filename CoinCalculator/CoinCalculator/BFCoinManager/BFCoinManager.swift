@@ -261,4 +261,15 @@ final class BFCoinManager {
     
     private func updateContextExecution(_ productCode:String, diff: [Execution]) {
         
-   
+        if var items = self.context.executions[productCode] {
+            items.insert(contentsOf: diff, at: 0)
+            items.removeLast(diff.count)
+        }
+    }
+    
+}
+
+//MARK: ロック制御
+extension BFCoinManager {
+    
+    static private var keepAlive
