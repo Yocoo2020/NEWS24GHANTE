@@ -279,4 +279,9 @@ extension BFCoinManager {
         print("keepAliveCount: \(print(BFCoinManager.keepAliveCount))")
     }
     
-    f
+    fileprivate func keepAliveCountDown() {
+        BFCoinManager.keepAliveCount = BFCoinManager.keepAliveCount - 1
+        print("keepAliveCount: \(print(BFCoinManager.keepAliveCount))")
+    }
+    
+    fileprivate func waitKeepA
