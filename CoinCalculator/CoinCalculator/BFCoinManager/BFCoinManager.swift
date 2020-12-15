@@ -284,4 +284,9 @@ extension BFCoinManager {
         print("keepAliveCount: \(print(BFCoinManager.keepAliveCount))")
     }
     
-    fileprivate func waitKeepA
+    fileprivate func waitKeepAlive() {
+        let runLoop = RunLoop.current
+        while BFCoinManager.keepAliveCount > 0 &&
+            runLoop.run(mode: .defaultRunLoopMode, before: Date(timeIntervalSinceNow: 0.1)) {
+                // 0.1秒毎の処理なので、処理が止まらない
+        }
