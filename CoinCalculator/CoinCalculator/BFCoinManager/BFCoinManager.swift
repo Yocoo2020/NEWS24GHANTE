@@ -272,4 +272,11 @@ final class BFCoinManager {
 //MARK: ロック制御
 extension BFCoinManager {
     
-    static private var keepAlive
+    static private var keepAliveCount = 0
+    
+    fileprivate func keepAliveCountUp() {
+        BFCoinManager.keepAliveCount = BFCoinManager.keepAliveCount + 1
+        print("keepAliveCount: \(print(BFCoinManager.keepAliveCount))")
+    }
+    
+    f
