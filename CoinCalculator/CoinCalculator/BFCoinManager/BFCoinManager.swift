@@ -290,3 +290,6 @@ extension BFCoinManager {
             runLoop.run(mode: .defaultRunLoopMode, before: Date(timeIntervalSinceNow: 0.1)) {
                 // 0.1秒毎の処理なので、処理が止まらない
         }
+    }
+}
+
