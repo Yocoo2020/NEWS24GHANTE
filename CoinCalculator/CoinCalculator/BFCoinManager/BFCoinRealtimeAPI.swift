@@ -10,4 +10,10 @@ import Foundation
 import PubNub
 
 enum Channel : String {
-    case marke
+    case market         = "lightning_board_snapshot_"
+    case board          = "lightning_board_"
+    case ticker         = "lightning_ticker_"
+    case executions     = "lightning_executions_"
+}
+
+final class BFCoinRealtimeAPI : NSObject {
