@@ -17,3 +17,14 @@ enum Channel : String {
 }
 
 final class BFCoinRealtimeAPI : NSObject {
+    
+    internal var client: PubNub!
+    
+    init(_ client: PubNub) {
+        super.init()
+        self.client = client
+    }
+    
+    static func setupClient() -> PubNub {
+        
+        let configuration = PN
