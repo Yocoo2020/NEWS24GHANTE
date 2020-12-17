@@ -27,4 +27,7 @@ final class BFCoinRealtimeAPI : NSObject {
     
     static func setupClient() -> PubNub {
         
-        let configuration = PN
+        let configuration = PNConfiguration(publishKey: "BFCoinMgr", subscribeKey: "sub-c-52a9ab50-291b-11e5-baaa-0619f8945a4f")
+        configuration.stripMobilePayload = false
+        return PubNub.clientWithConfiguration(configuration)
+  
