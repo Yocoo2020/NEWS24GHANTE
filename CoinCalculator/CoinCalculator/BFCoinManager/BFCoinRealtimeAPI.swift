@@ -38,4 +38,13 @@ final class BFCoinRealtimeAPI : NSObject {
         self.registMarketChannel(productCode)
         self.registBoardChannel(productCode)
         self.registTickerChannel(productCode)
-        self.
+        self.registExecutionsChannel(productCode)
+    }
+    
+    func releaseChannelsAll() {
+        self.client.unsubscribeFromAll()
+    }
+    
+    func registMarketChannel(_ productCode: String) {
+        
+        let subscribeKey = "\(Channel.market.rawValue)\(prod
