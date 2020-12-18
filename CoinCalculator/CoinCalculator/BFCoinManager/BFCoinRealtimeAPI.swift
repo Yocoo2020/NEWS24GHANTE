@@ -30,4 +30,12 @@ final class BFCoinRealtimeAPI : NSObject {
         let configuration = PNConfiguration(publishKey: "BFCoinMgr", subscribeKey: "sub-c-52a9ab50-291b-11e5-baaa-0619f8945a4f")
         configuration.stripMobilePayload = false
         return PubNub.clientWithConfiguration(configuration)
-  
+    }
+    
+    //MARK: Channel
+    func registChannelsAll(_ productCode: String) {
+        
+        self.registMarketChannel(productCode)
+        self.registBoardChannel(productCode)
+        self.registTickerChannel(productCode)
+        self.
