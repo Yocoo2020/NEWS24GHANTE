@@ -80,3 +80,9 @@ final class BFCoinRealtimeAPI : NSObject {
         let subscribeKey = "\(Channel.ticker.rawValue)\(productCode)"
         self.client.unsubscribeFromChannels([subscribeKey], withPresence: true)
     }
+    
+    func registExecutionsChannel(_ productCode: String) {
+        
+        let subscribeKey = "\(Channel.executions.rawValue)\(productCode)"
+        self.client.subscribeToChannels([subscribeKey], withPresence: true)
+  
