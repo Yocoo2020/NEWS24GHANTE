@@ -90,4 +90,8 @@ final class BFCoinRealtimeAPI : NSObject {
     func releaseExecutionsChannel(_ productCode: String) {
         
         let subscribeKey = "\(Channel.executions.rawValue)\(productCode)"
-        self.client.unsubscribeFromChannels([subscribeKey], withPrese
+        self.client.unsubscribeFromChannels([subscribeKey], withPresence: true)
+    }
+}
+
+
