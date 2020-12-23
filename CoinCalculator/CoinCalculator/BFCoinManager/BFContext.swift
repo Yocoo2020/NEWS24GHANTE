@@ -16,4 +16,8 @@ struct BFContext {
     var markets     = [Market]()
     var boards      = [[String:Board]]()
     var tickers     = [Ticker]()
-    var executions  = [String:
+    var executions  = [String:[Execution]]()
+    var boardStates = [String:BoardState]()
+    var healths     = [String:Health]()
+    var chats       = [Chat]()
+}
