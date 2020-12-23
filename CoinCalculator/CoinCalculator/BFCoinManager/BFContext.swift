@@ -8,4 +8,12 @@
 
 import Foundation
 
-struct BFC
+struct BFContext {
+    
+    static let maxRateCount = 20
+    static let maxExecutionCount = 100
+    
+    var markets     = [Market]()
+    var boards      = [[String:Board]]()
+    var tickers     = [Ticker]()
+    var executions  = [String:
