@@ -20,4 +20,11 @@ extension Date {
         return dateFormatter.string(from: self)
     }
     
-    static func stringDate(_ string:String)-> Date?
+    static func stringDate(_ string:String)-> Date? {
+        var newString = string
+        if newString.last == "Z" {
+            newString.removeLast()
+        }
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX"
