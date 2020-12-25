@@ -32,4 +32,9 @@ extension Date {
         dateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
         
 //        var finalDate: Date?
-//        if let date = dateForm
+//        if let date = dateFormatter.date(from:string) {
+//            let calendar = Calendar.current
+//            let components = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
+//            finalDate = calendar.date(from:components)
+//        } else {
+//         
