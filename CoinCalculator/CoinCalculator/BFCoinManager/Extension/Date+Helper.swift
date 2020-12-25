@@ -27,4 +27,9 @@ extension Date {
         }
         
         let dateFormatter = DateFormatter()
-        dateFormatter.locale = Locale(identifier: "en_US_POSIX"
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS"
+        dateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
+        
+//        var finalDate: Date?
+//        if let date = dateForm
