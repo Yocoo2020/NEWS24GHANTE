@@ -37,4 +37,7 @@ extension Date {
 //            let components = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
 //            finalDate = calendar.date(from:components)
 //        } else {
-//         
+//            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+//            if let date = dateFormatter.date(from:string) {
+//                let calendar = Calendar.current
+//                let components = calendar.dateComponents([.year, .month, .da
