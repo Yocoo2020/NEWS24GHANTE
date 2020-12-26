@@ -56,4 +56,8 @@ extension Date {
             newString.removeLast()
         }
         let dateFormatter = DateFormatter()
-        dateFor
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS"
+        let date = dateFormatter.date(from: newString)
+        dateFormatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
+        
