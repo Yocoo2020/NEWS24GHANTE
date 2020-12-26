@@ -61,3 +61,7 @@ extension Date {
         let date = dateFormatter.date(from: newString)
         dateFormatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
         
+        return dateFormatter.string(from: date!)
+        
+    }
+}
