@@ -6,4 +6,16 @@
 //  Copyright © 2018年 archive-asia. All rights reserved.
 //
 
-import Foundati
+import Foundation
+
+enum CoinType: String {
+    case BTC_JPY
+    case ETH_BTC
+}
+
+extension String {
+    func convertCodeToName() -> String {
+        
+        if self == CoinType.BTC_JPY.rawValue {
+            return "BitCoin"
+        } else if sel
