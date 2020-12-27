@@ -18,4 +18,10 @@ extension String {
         
         if self == CoinType.BTC_JPY.rawValue {
             return "BitCoin"
-        } else if sel
+        } else if self == CoinType.ETH_BTC.rawValue {
+            return "Ethereum"
+        } else {
+            return self
+        }
+    }
+}
