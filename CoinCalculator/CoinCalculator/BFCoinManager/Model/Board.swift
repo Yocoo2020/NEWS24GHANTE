@@ -34,4 +34,11 @@ struct Board {
         if let items = dictionary["bids"] as? [Dictionary<String,Any>] {
             for (index, dict) in items.enumerated() {
                 
-                if i
+                if index > BFContext.maxRateCount {
+                    break
+                }
+                
+                guard let price = dict["price"] as? Int else {
+                    continue
+                }
+               
