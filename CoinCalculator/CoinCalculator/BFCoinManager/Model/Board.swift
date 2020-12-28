@@ -27,4 +27,11 @@ struct Board {
     
     init(dictionary: Dictionary<String, Any>) {
         
-        if let mid_price = dictionary["mid
+        if let mid_price = dictionary["mid_price"] as? Int {
+            self.midPrice = mid_price
+        }
+        
+        if let items = dictionary["bids"] as? [Dictionary<String,Any>] {
+            for (index, dict) in items.enumerated() {
+                
+                if i
