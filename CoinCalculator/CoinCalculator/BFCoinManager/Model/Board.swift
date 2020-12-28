@@ -16,4 +16,15 @@ import Foundation
          "size": 3}],
  "asks": [{"price": 36640,
          "size": 5},
-         {"price": 3
+         {"price": 36700,
+         "size": 1.2}]}
+ */
+struct Board {
+    
+    var midPrice = 0
+    var bids = [Rate]()
+    var asks = [Rate]()
+    
+    init(dictionary: Dictionary<String, Any>) {
+        
+        if let mid_price = dictionary["mid
