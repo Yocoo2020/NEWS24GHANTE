@@ -49,4 +49,10 @@ struct Board {
             }
         }
         
-        if let ite
+        if let items = dictionary["asks"] as? [Dictionary<String,Any>] {
+            
+            for (index, dict) in items.enumerated() {
+                
+                if index > BFContext.maxRateCount {
+                    break
+    
