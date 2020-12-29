@@ -41,4 +41,12 @@ struct Board {
                 guard let price = dict["price"] as? Int else {
                     continue
                 }
-               
+                guard let size = dict["size"] as? Double else {
+                    continue
+                }
+                let rate = Rate(price: price, size: size)
+                self.bids.append(rate)
+            }
+        }
+        
+        if let ite
