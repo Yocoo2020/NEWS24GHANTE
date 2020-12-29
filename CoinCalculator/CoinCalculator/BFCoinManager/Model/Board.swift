@@ -55,4 +55,11 @@ struct Board {
                 
                 if index > BFContext.maxRateCount {
                     break
-    
+                }
+                
+                guard let price = dict["price"] as? Int else {
+                    continue
+                }
+                guard let size = dict["size"] as? Double else {
+                    continue
+        
