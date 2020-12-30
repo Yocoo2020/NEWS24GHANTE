@@ -78,3 +78,11 @@ struct Board {
         self.asks.insert(contentsOf: board.asks, at: 0)
         self.asks.removeLast(board.asks.count)
     }
+}
+
+//MARK: Rate
+struct Rate {
+    var price :Int
+    var size :Double
+}
+
