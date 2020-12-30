@@ -72,4 +72,9 @@ struct Board {
     }
     
     mutating func diffUpdate(_ board:Board) {
-        
+        self.midPrice = board.midPrice
+        self.bids.insert(contentsOf: board.bids, at: 0)
+        self.bids.removeLast(board.bids.count)
+        self.asks.insert(contentsOf: board.asks, at: 0)
+        self.asks.removeLast(board.asks.count)
+    }
