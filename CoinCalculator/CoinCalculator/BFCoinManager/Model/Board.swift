@@ -62,4 +62,14 @@ struct Board {
                 }
                 guard let size = dict["size"] as? Double else {
                     continue
+                }
+                let rate = Rate(price: price, size: size)
+                self.asks.append(rate)
+                
+            }
+        }
+        
+    }
+    
+    mutating func diffUpdate(_ board:Board) {
         
