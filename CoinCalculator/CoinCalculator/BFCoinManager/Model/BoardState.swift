@@ -23,4 +23,15 @@ enum StateType: String {
     case starting       = "STARTING"        //再起動中
     case preopen        = "PREOPEN"         //板寄せ中
     case circuitBreak   = "CIRCUIT BREAK"   //サーキットブレイク発動中
-    case awaitingSQ     = "AWAITI
+    case awaitingSQ     = "AWAITING SQ"     //Lightning Futures の取引終了後 SQ（清算値）の確定前
+    case matured        = "MATURED"         //Lightning Futures の満期に到達
+}
+/*
+ {
+ "health": "NORMAL",
+ "state": "MATURED",
+ "data": {
+ "special_quotation": 410897
+ }
+ */
+struct BoardStat
