@@ -19,4 +19,8 @@ enum HealthType: String {
 
 enum StateType: String {
     case running        = "RUNNING"         //通常稼働中
-  
+    case closed         = "CLOSED"          //取引停止中
+    case starting       = "STARTING"        //再起動中
+    case preopen        = "PREOPEN"         //板寄せ中
+    case circuitBreak   = "CIRCUIT BREAK"   //サーキットブレイク発動中
+    case awaitingSQ     = "AWAITI
