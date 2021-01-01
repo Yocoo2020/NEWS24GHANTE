@@ -34,4 +34,12 @@ enum StateType: String {
  "special_quotation": 410897
  }
  */
-struct BoardStat
+struct BoardState {
+    var health: HealthType?
+    var state: StateType?
+    var data: [String:Any]?
+    
+    init(dictionary: Dictionary<String, Any>) {
+        
+        if let health = dictionary["health"] as? String {
+    
