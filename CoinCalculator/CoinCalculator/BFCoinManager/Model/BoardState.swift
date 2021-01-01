@@ -49,4 +49,9 @@ struct BoardState {
             self.state = StateType(rawValue: state)
         }
         
-        if let data = dictionary
+        if let data = dictionary["data"] as? [String:Any] {
+            self.data = data
+        }
+    }
+}
+
