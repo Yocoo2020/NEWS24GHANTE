@@ -42,4 +42,11 @@ struct BoardState {
     init(dictionary: Dictionary<String, Any>) {
         
         if let health = dictionary["health"] as? String {
-    
+            self.health = HealthType(rawValue: health)
+        }
+        
+        if let state = dictionary["state"] as? String {
+            self.state = StateType(rawValue: state)
+        }
+        
+        if let data = dictionary
