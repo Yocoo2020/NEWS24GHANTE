@@ -13,4 +13,10 @@ enum SideType : String {
     case sell   = "SELL"
 }
 /*
-    "id"
+    "id": 39287,
+    "side": "BUY",
+    "price": 31690,
+    "size": 27.04,
+    "exec_date": "2015-07-08T02:43:34.823",
+    "buy_child_order_acceptance_id": "JRF20150707-200203-452209",
+    "sell_child_order_acceptance_id": "JRF20150708-024334-060234"
