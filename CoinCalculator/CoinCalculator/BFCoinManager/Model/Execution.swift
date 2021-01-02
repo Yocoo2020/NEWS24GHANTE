@@ -20,3 +20,13 @@ enum SideType : String {
     "exec_date": "2015-07-08T02:43:34.823",
     "buy_child_order_acceptance_id": "JRF20150707-200203-452209",
     "sell_child_order_acceptance_id": "JRF20150708-024334-060234"
+ */
+struct Execution {
+    var executionId :UInt64?
+    var side :SideType?
+    var price = 0
+    var size  = 0.0
+    var exeDate :Date?
+    var buyChildOrderAcceptanceId :String?
+    var sellChildOrderAcceptanceId :String?
+  
