@@ -29,4 +29,11 @@ struct Execution {
     var exeDate :Date?
     var buyChildOrderAcceptanceId :String?
     var sellChildOrderAcceptanceId :String?
-  
+    
+    init(dictionary: Dictionary<String, Any>) {
+        
+        if let execution_id = dictionary["id"] as? UInt64 {
+            self.executionId = execution_id
+        }
+        
+        if let side = dictionary[
