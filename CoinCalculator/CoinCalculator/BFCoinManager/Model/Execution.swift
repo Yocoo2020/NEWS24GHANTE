@@ -36,4 +36,12 @@ struct Execution {
             self.executionId = execution_id
         }
         
-        if let side = dictionary[
+        if let side = dictionary["side"] as? String {
+            self.side = SideType(rawValue: side) ?? nil
+        }
+        
+        if let price = dictionary["price"] as? Int {
+            self.price = price
+        }
+        
+        if let size = dictionary["size
