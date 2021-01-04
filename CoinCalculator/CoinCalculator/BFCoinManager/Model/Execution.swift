@@ -58,4 +58,9 @@ struct Execution {
             self.buyChildOrderAcceptanceId = buy_child_order_acceptance_id
         }
         
-        if
+        if let sell_child_order_acceptance_id = dictionary["sell_child_order_acceptance_id"] as? String {
+            self.sellChildOrderAcceptanceId = sell_child_order_acceptance_id
+        }
+        
+    }
+}
