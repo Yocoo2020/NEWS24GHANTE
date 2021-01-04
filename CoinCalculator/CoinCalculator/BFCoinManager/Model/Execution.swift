@@ -44,4 +44,11 @@ struct Execution {
             self.price = price
         }
         
-        if let size = dictionary["size
+        if let size = dictionary["size"] as? Double {
+            self.size = size
+        }
+        
+        if let exec_date = dictionary["exec_date"] as? String {
+            if let date = Date.stringDate(exec_date) {
+                self.exeDate = date
+       
