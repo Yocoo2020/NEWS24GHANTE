@@ -51,4 +51,11 @@ struct Execution {
         if let exec_date = dictionary["exec_date"] as? String {
             if let date = Date.stringDate(exec_date) {
                 self.exeDate = date
-       
+            }
+        }
+        
+        if let buy_child_order_acceptance_id = dictionary["buy_child_order_acceptance_id"] as? String {
+            self.buyChildOrderAcceptanceId = buy_child_order_acceptance_id
+        }
+        
+        if
