@@ -12,4 +12,9 @@ struct Health {
     var status: HealthType?
     
     init(dictionary: Dictionary<String, Any>) {
-     
+        
+        if let status = dictionary["status"] as? String {
+            self.status = HealthType(rawValue: status)
+        }
+    }
+}
