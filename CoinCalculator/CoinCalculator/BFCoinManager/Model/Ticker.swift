@@ -20,4 +20,14 @@ import Foundation
  "total_ask_depth": 20,
  "ltp": 31690,
  "volume": 16819.26,
- "volume_by_product": 
+ "volume_by_product": 6819.26}
+ */
+struct Ticker {
+    var productCode :String?
+//    var timestamp   :Date?
+    var timestamp: String?
+    var tickId :UInt64  = 0
+    var bestBid         = 0
+    var bestAsk         = 0
+    var bestBidSize     = 0.0
+    var bestAskSize     = 0.0
