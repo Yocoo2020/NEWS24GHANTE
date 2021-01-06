@@ -32,4 +32,8 @@ struct Market {
         }
         
         if let alias = dictionary["alias"] as? String {
-            sel
+            self.alias = alias
+        }
+    }
+}
+
