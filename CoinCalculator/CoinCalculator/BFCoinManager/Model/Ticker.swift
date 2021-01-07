@@ -31,3 +31,12 @@ struct Ticker {
     var bestAsk         = 0
     var bestBidSize     = 0.0
     var bestAskSize     = 0.0
+    var totalBidDepth   = 0.0
+    var totalAskDepth   = 0.0
+    var ltp             = 0
+    var volume          = 0.0
+    var volumeByProduct = 0.0
+
+    init(dictionary: Dictionary<String, Any>) {
+        
+        if
