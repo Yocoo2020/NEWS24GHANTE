@@ -39,4 +39,9 @@ struct Ticker {
 
     init(dictionary: Dictionary<String, Any>) {
         
-        if
+        if let product_code = dictionary["product_code"] as? String {
+            self.productCode = product_code
+        }
+        
+        if let timestamp = dictionary["timestamp"] as? String {
+//            if let date = Date.stringDa
