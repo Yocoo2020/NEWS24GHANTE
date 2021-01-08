@@ -44,4 +44,11 @@ struct Ticker {
         }
         
         if let timestamp = dictionary["timestamp"] as? String {
-//            if let date = Date.stringDa
+//            if let date = Date.stringDate(timestamp) {
+//                self.timestamp = date
+//            }
+            let date = Date.stringToString(timestamp)
+            self.timestamp = date
+        }
+        
+        if let tick_id = dictionar
