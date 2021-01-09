@@ -51,4 +51,12 @@ struct Ticker {
             self.timestamp = date
         }
         
-        if let tick_id = dictionar
+        if let tick_id = dictionary["tick_id"] as? UInt64 {
+            self.tickId = tick_id
+        }
+        
+        if let best_bid = dictionary["best_bid"] as? Int {
+            self.bestBid = best_bid
+        }
+        
+        if let best_ask = dictionary["best_ask
