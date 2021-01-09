@@ -67,4 +67,10 @@ struct Ticker {
             self.bestBidSize = best_bid_size
         }
         
-        if let best_ask_size = dicti
+        if let best_ask_size = dictionary["best_ask_size"] as? Double {
+            self.bestAskSize = best_ask_size
+        }
+        
+        if let total_bid_depth = dictionary["total_bid_depth"] as? Double {
+            self.totalBidDepth = total_bid_depth
+       
