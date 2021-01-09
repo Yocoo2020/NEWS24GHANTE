@@ -59,4 +59,12 @@ struct Ticker {
             self.bestBid = best_bid
         }
         
-        if let best_ask = dictionary["best_ask
+        if let best_ask = dictionary["best_ask"] as? Int {
+            self.bestAsk = best_ask
+        }
+        
+        if let best_bid_size = dictionary["best_bid_size"] as? Double {
+            self.bestBidSize = best_bid_size
+        }
+        
+        if let best_ask_size = dicti
