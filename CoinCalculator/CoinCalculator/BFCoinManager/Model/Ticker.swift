@@ -73,4 +73,11 @@ struct Ticker {
         
         if let total_bid_depth = dictionary["total_bid_depth"] as? Double {
             self.totalBidDepth = total_bid_depth
-       
+        }
+        
+        if let total_ask_depth = dictionary["total_ask_depth"] as? Double {
+            self.totalAskDepth = total_ask_depth
+        }
+        
+        if let ltp = dictionary["ltp"] as? Int {
+            se
