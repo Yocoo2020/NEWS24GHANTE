@@ -87,4 +87,10 @@ struct Ticker {
             self.volume = volume
         }
         
-        if let volume_by_product = dictionary["volume_by_product"] as? 
+        if let volume_by_product = dictionary["volume_by_product"] as? Double {
+            self.volumeByProduct = volume_by_product
+        }
+        
+    }
+    
+}
