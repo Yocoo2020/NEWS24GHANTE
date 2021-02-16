@@ -176,3 +176,55 @@ class ChartViewController: UIViewController, ChartViewDelegate {
         set1.neutralColor = .blue
         set1.drawValuesEnabled = false
         let data = CandleChartData(dataSet: set1)
+        chartView.data = data
+    }
+    
+    //MARK: Private methods
+    private func initializeChart() {
+        
+        self.options = [
+//            .toggleValues,
+            //.toggleIcons,
+            //.toggleHighlight,
+            .animateX,
+            .animateY,
+            .animateXY,
+            //.saveToGallery,
+//            .togglePinchZoom,
+//            .toggleAutoScaleMinMax,
+            //.toggleShadowColorSameAsCandle,
+            //.toggleData
+        ]
+        
+        chartView.delegate = self
+        chartView.chartDescription?.enabled = true
+        chartView.chartDescription?.text = "１時間足"
+        chartView.drawGridBackgroundEnabled = false
+        chartView.dragEnabled = true
+        chartView.setScaleEnabled(true)
+        chartView.maxVisibleCount = 100
+        chartView.pinchZoomEnabled = true
+        
+//        chartView.legend.horizontalAlignment = .right
+//        chartView.legend.verticalAlignment = .top
+//        chartView.legend.orientation = .vertical
+//        chartView.legend.drawInside = false
+//        chartView.legend.font = UIFont(name: "HelveticaNeue-Light", size: 10)!
+        chartView.legend.enabled = false
+        
+        chartView.rightAxis.labelFont = UIFont(name: "HelveticaNeue-Light", size: 10)!
+        chartView.rightAxis.spaceTop = 0
+        chartView.rightAxis.spaceBottom = 0.5
+        chartView.rightAxis.axisMinimum = 0
+        chartView.leftAxis.enabled = false
+        
+        chartView.xAxis.labelPosition = .bottom
+        chartView.xAxis.labelFont = UIFont(name: "HelveticaNeue-Light", size: 10)!
+        chartView.xAxis.drawLabelsEnabled = false
+        
+        chartView.xAxis.drawGridLinesEnabled = false
+        chartView.xAxis.gridColor = NSUIColor.gray.withAlphaComponent(0.3)
+
+    }
+    
+}
