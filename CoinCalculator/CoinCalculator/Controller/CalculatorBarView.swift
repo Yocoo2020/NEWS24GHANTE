@@ -59,3 +59,38 @@ class CalculatorBarView: UIView {
     
                     exchangedResultLabel.text = "\(finalValue) ￥"
                     
+                }
+            }
+        }
+    }
+
+    
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+        switchExchangeMode()
+        
+        exchangedResultLabel.layer.masksToBounds = true
+        exchangedResultLabel.layer.cornerRadius = 5
+        exchangedResultLabel.layer.borderColor = UIColor.lightGray.cgColor
+        exchangedResultLabel.layer.borderWidth = 1
+        
+    }
+    
+    private func switchExchangeMode() {
+        if isExchangeOfYenForCoin { // BTC -> JPY
+            currentExchangeModeLabel.text = "\(coinName) → JPY"
+            exchangedResultLabel.text = "JPY"
+            inputValueTextField.placeholder = "\(coinName)"
+            isExchangeOfYenForCoin = false
+        } else {                    // JPY -> BTC
+            currentExchangeModeLabel.text = "JPY → \(coinName)"
+            exchangedResultLabel.text = "\(coinName)"
+            inputValueTextField.placeholder = "JPY"
+            isExchangeOfYenForCoin = true
+        }
+    }
+ 
+
+}
