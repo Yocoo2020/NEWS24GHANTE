@@ -21,4 +21,8 @@ class CoinInfoView: UIView {
             let bestBid = ticker.bestBid == 0 ? "-" : "\(ticker.bestBid)"
             bestBidLabel.text = bestBid
             let bestBidSize = ticker.bestBidSize == 0 ? "-" : "\(ticker.bestBidSize)"
-            bestBid
+            bestBidSizeLabel.text = bestBidSize
+            let bestAsk = ticker.bestAsk == 0 ? "-" : "\(ticker.bestAsk)"
+            bestAskLabel.text = bestAsk
+            let bestAskSize = ticker.bestAskSize == 0 ? "-" : "\(ticker.bestAskSize)"
+            bestAskSizeLabel
