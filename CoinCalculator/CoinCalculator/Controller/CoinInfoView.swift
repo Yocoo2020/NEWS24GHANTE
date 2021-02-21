@@ -16,4 +16,9 @@ class CoinInfoView: UIView {
     var ticker: Ticker? {
         didSet {
             guard let ticker = ticker else {
-                retu
+                return
+            }
+            let bestBid = ticker.bestBid == 0 ? "-" : "\(ticker.bestBid)"
+            bestBidLabel.text = bestBid
+            let bestBidSize = ticker.bestBidSize == 0 ? "-" : "\(ticker.bestBidSize)"
+            bestBid
