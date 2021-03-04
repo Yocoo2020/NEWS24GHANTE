@@ -25,4 +25,11 @@ class CoinInfoView: UIView {
             let bestAsk = ticker.bestAsk == 0 ? "-" : "\(ticker.bestAsk)"
             bestAskLabel.text = bestAsk
             let bestAskSize = ticker.bestAskSize == 0 ? "-" : "\(ticker.bestAskSize)"
-            bestAskSizeLabel
+            bestAskSizeLabel.text = bestAskSize
+            if let timestamp = ticker.timestamp {
+                timestampLabel.text = "\(timestamp)"
+            }
+            
+            // FIXME: Test Animation
+            if oldValue?.ltp != ticker.ltp {
+                UIVi
