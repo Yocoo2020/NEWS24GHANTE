@@ -32,4 +32,7 @@ class CoinInfoView: UIView {
             
             // FIXME: Test Animation
             if oldValue?.ltp != ticker.ltp {
-                UIVi
+                UIView.transition(with: ltpLabel, duration: 0.2, options: .transitionCrossDissolve, animations: {
+                    self.ltpLabel.font = UIFont(name: self.fontName, size: self.fontSize * 1.2)
+                }) { finished in
+                   
