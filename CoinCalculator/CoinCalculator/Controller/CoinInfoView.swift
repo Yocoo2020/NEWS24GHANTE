@@ -48,4 +48,10 @@ class CoinInfoView: UIView {
     @IBOutlet weak var bestBidLabel: UILabel!
     @IBOutlet weak var bestBidSizeLabel: UILabel!
     @IBOutlet weak var bestAskLabel: UILabel!
-    @IBOutlet wea
+    @IBOutlet weak var bestAskSizeLabel: UILabel!
+    @IBOutlet weak var timestampLabel: UILabel!
+
+    /*
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override 
