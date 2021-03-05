@@ -41,4 +41,11 @@ class CoinInfoView: UIView {
                 }
             }
             
-       
+        }
+    }
+    
+    @IBOutlet weak var ltpLabel: UILabel!
+    @IBOutlet weak var bestBidLabel: UILabel!
+    @IBOutlet weak var bestBidSizeLabel: UILabel!
+    @IBOutlet weak var bestAskLabel: UILabel!
+    @IBOutlet wea
