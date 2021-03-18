@@ -54,4 +54,10 @@ class CoinInfoView: UIView {
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
-    override 
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
+    */
+    
+
+}
