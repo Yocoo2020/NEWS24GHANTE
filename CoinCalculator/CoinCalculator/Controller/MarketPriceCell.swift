@@ -20,4 +20,11 @@ class MarketPriceCell: UITableViewCell {
         }
     }
     
-    var midPrice: I
+    var midPrice: Int? {
+        didSet {
+            if let midPrice = midPrice {
+                askSizeLabel.text = " "
+                priceLabel.text = "\(midPrice)"
+                priceLabel.font = UIFont.boldSystemFont(ofSize: 16)
+            }
+  
