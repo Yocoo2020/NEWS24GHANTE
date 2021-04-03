@@ -27,4 +27,12 @@ class MarketPriceCell: UITableViewCell {
                 priceLabel.text = "\(midPrice)"
                 priceLabel.font = UIFont.boldSystemFont(ofSize: 16)
             }
-  
+        }
+    }
+    
+    var bidRate: Rate? {
+        didSet {
+            if let bidRate = bidRate {
+                bidSizeLabel.text = "\(bidRate.size)"
+                priceLabel.text = "\(bidRate.price)"
+                priceLabel.textCo
