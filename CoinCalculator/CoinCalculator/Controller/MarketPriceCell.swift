@@ -12,4 +12,12 @@ class MarketPriceCell: UITableViewCell {
     
     var askRate: Rate? {
         didSet {
-            if let askRate = askRate 
+            if let askRate = askRate {
+                askSizeLabel.text = "\(askRate.size)"
+                priceLabel.text = "\(askRate.price)"
+                priceLabel.textColor = CCColor().askColor
+            }
+        }
+    }
+    
+    var midPrice: I
