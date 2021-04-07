@@ -45,4 +45,15 @@ class MarketPriceCell: UITableViewCell {
     @IBOutlet weak var bidSizeLabel: UILabel!
     
     override func awakeFromNib() {
-        super.awake
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        bidSizeLabel.text = nil
+        priceLabel.text = nil
+        askSizeLabel.text = nil
+    }
+
+}
