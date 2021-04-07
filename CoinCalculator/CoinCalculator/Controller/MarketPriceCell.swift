@@ -35,4 +35,14 @@ class MarketPriceCell: UITableViewCell {
             if let bidRate = bidRate {
                 bidSizeLabel.text = "\(bidRate.size)"
                 priceLabel.text = "\(bidRate.price)"
-                priceLabel.textCo
+                priceLabel.textColor = CCColor().bidColor
+            }
+        }
+    }
+
+    @IBOutlet weak var askSizeLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var bidSizeLabel: UILabel!
+    
+    override func awakeFromNib() {
+        super.awake
