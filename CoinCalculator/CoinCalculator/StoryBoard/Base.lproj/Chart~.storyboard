@@ -42,4 +42,6 @@
                                                     <color key="backgroundColor" red="0.092920978479999999" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                     <nil key="textColor"/>
-                                            
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO
