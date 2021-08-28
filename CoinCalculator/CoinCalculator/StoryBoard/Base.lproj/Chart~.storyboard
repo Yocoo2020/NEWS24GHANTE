@@ -68,4 +68,7 @@
                                                         <constraint firstAttribute="trailing" secondItem="MYl-Im-uiO" secondAttribute="trailing" constant="3" id="N5H-ma-bHl"/>
                                                         <constraint firstAttribute="bottom" secondItem="MYl-Im-uiO" secondAttribute="bottom" constant="3" id="Rfb-IC-rRG"/>
                                                         <constraint firstItem="MYl-Im-uiO" firstAttribute="top" secondItem="b8O-6P-eYH" secondAttribute="bottom" constant="5" id="ajV-HS-vHb"/>
-                                                        <constraint firstItem="b8
+                                                        <constraint firstItem="b8O-6P-eYH" firstAttribute="leading" secondItem="c0Y-MO-ZQG" secondAttribute="leading" constant="3" id="gol-yd-cxT"/>
+                                                    </constraints>
+                                                </view>
+                 
