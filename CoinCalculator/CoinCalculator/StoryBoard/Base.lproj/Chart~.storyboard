@@ -72,4 +72,6 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1t-mE-NoT">
-                                                    <rect key="frame" x="261.5" y="10" width="98.5" heig
+                                                    <rect key="frame" x="261.5" y="10" width="98.5" height="47"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ver
