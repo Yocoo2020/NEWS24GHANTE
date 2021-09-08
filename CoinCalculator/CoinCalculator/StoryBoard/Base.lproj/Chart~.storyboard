@@ -71,4 +71,5 @@
                                                         <constraint firstItem="b8O-6P-eYH" firstAttribute="leading" secondItem="c0Y-MO-ZQG" secondAttribute="leading" constant="3" id="gol-yd-cxT"/>
                                                     </constraints>
                                                 </view>
-                 
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1t-mE-NoT">
+                                                    <rect key="frame" x="261.5" y="10" width="98.5" heig
