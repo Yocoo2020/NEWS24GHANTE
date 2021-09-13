@@ -90,4 +90,5 @@
                                                     <color key="backgroundColor" red="0.94328745579999995" green="1" blue="0.3527270066" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstItem="dGE-mQ-clc" firstAttribute="leading" secondItem="h1t-mE-NoT" secondAttribute="leading" constant="3" id="1jv-mI-0e4"/>
-                                                        <constraint firstAttribute="bottom" secondItem
+                                                        <constraint firstAttribute="bottom" secondItem="gLS-CI-4GM" secondAttribute="bottom" constant="3" id="5px-D6-t42"/>
+                                                        <constraint firstItem="gLS-CI-4GM" firstAttribute="top" secondItem="dGE-mQ-clc" secondAttribute="bottom" consta
