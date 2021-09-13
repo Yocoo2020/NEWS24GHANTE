@@ -91,4 +91,6 @@
                                                     <constraints>
                                                         <constraint firstItem="dGE-mQ-clc" firstAttribute="leading" secondItem="h1t-mE-NoT" secondAttribute="leading" constant="3" id="1jv-mI-0e4"/>
                                                         <constraint firstAttribute="bottom" secondItem="gLS-CI-4GM" secondAttribute="bottom" constant="3" id="5px-D6-t42"/>
-                                                        <constraint firstItem="gLS-CI-4GM" firstAttribute="top" secondItem="dGE-mQ-clc" secondAttribute="bottom" consta
+                                                        <constraint firstItem="gLS-CI-4GM" firstAttribute="top" secondItem="dGE-mQ-clc" secondAttribute="bottom" constant="5" id="FRa-Ei-rJw"/>
+                                                        <constraint firstAttribute="trailing" secondItem="dGE-mQ-clc" secondAttribute="trailing" constant="3" id="Mqd-Fr-Z09"/>
+                                            
