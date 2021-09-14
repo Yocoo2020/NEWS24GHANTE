@@ -98,4 +98,6 @@
                                                         <constraint firstItem="dGE-mQ-clc" firstAttribute="top" secondItem="h1t-mE-NoT" secondAttribute="top" constant="3" id="kRY-xc-PYr"/>
                                                     </constraints>
                                                 </view>
-                                                <
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X5j-Eu-7ro">
+                                                    <rect key="frame" x="15" y="57" width="355" height="37.5"/>
+                
