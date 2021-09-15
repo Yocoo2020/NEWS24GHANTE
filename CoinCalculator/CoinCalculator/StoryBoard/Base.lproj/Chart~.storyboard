@@ -102,4 +102,5 @@
                                                     <rect key="frame" x="15" y="57" width="355" height="37.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更新時刻" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssW-O1-5vZ">
-                       
+                                                            <rect key="frame" x="0.0" y="0.0" width="62" height="18"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"
