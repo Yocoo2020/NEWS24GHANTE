@@ -100,4 +100,5 @@
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X5j-Eu-7ro">
                                                     <rect key="frame" x="15" y="57" width="355" height="37.5"/>
-                
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHug
