@@ -113,4 +113,7 @@
                                                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="145" id="tdl-Uq-cWv"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                            <nil key="te
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <l
