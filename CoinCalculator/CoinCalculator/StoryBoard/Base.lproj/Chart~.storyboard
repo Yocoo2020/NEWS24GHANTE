@@ -111,4 +111,6 @@
                                                             <rect key="frame" x="0.0" y="19.5" width="145" height="18"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="145" id="tdl-Uq-cWv"/>
-                  
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <nil key="te
