@@ -116,4 +116,4 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <l
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="24時間取引量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaseli
