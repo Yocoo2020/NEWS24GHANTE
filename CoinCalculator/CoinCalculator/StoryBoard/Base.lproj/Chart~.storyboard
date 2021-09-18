@@ -120,4 +120,6 @@
                                                             <rect key="frame" x="155" y="19" width="95" height="18"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                             <nil key="textColor"/>
-                                  
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnab
