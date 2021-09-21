@@ -131,4 +131,6 @@
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.94939202069999995" green="0.66238188740000004" blue="0.36854845289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" con
+                                                        <constraint firstAttribute="height" constant="37" id="6gM-7N-JCO"/>
+                                                        <constraint firstAttribute="bottom" secondItem="7Ag-AF-bCD" secondAttribute="bottom" id="8hb-8S-eAN"/>
+                                          
