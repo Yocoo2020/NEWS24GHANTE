@@ -133,4 +133,5 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="37" id="6gM-7N-JCO"/>
                                                         <constraint firstAttribute="bottom" secondItem="7Ag-AF-bCD" secondAttribute="bottom" id="8hb-8S-eAN"/>
-                                          
+                                                        <constraint firstAttribute="trailing" secondItem="wez-QI-PlA" secondAttribute="trailing" id="920-zL-KE7"/>
+                                                        <constraint firstAttribute="bottom" secondIt
