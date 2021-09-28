@@ -157,4 +157,5 @@
                                                 <constraint firstItem="SRC-zy-OaH" firstAttribute="leading" secondItem="HhN-Ic-HjN" secondAttribute="leading" constant="15" id="avu-Jd-T37"/>
                                                 <constraint firstItem="c0Y-MO-ZQG" firstAttribute="centerX" secondItem="HhN-Ic-HjN" secondAttribute="centerX" id="cdl-y7-yfK"/>
                                                 <constraint firstItem="X5j-Eu-7ro" firstAttribute="top" secondItem="c0Y-MO-ZQG" secondAttribute="bottom" id="d0F-lE-qUl"/>
-                                                <constraint firstItem="c0Y-MO-ZQG" firstAttribute="width" secondItem="h1t-mE-NoT" seco
+                                                <constraint firstItem="c0Y-MO-ZQG" firstAttribute="width" secondItem="h1t-mE-NoT" secondAttribute="width" id="l0g-nl-G4s"/>
+                                                <constraint firstItem="c0Y-MO-ZQG" firstAttribute="leading" secondItem="DYY-ak-qKU" secondAttribute="trailing" constant="15" id="ufy
