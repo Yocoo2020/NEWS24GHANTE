@@ -164,4 +164,6 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="bestAskLabel" destination="dGE-mQ-clc" id="OkE-da-Bag"/>
-    
+                                            <outlet property="bestAskSizeLabel" destination="gLS-CI-4GM" id="bY3-fX-Zt3"/>
+                                            <outlet property="bestBidLabel" destination="b8O-6P-eYH" id="0NN-L2-lQ8"/>
+       
