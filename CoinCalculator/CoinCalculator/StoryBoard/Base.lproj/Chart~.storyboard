@@ -161,4 +161,7 @@
                                                 <constraint firstItem="c0Y-MO-ZQG" firstAttribute="leading" secondItem="DYY-ak-qKU" secondAttribute="trailing" constant="15" id="ufy-Ix-BHV"/>
                                                 <constraint firstItem="SRC-zy-OaH" firstAttribute="top" secondItem="HhN-Ic-HjN" secondAttribute="top" constant="15" id="yUG-Mv-UiQ"/>
                                             </constraints>
- 
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="bestAskLabel" destination="dGE-mQ-clc" id="OkE-da-Bag"/>
+    
