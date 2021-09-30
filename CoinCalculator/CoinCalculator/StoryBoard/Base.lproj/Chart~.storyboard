@@ -168,4 +168,5 @@
                                             <outlet property="bestBidLabel" destination="b8O-6P-eYH" id="0NN-L2-lQ8"/>
                                             <outlet property="bestBidSizeLabel" destination="MYl-Im-uiO" id="Orx-9E-IK2"/>
                                             <outlet property="logoLabel" destination="SRC-zy-OaH" id="clT-C1-LEH"/>
-           
+                                            <outlet property="marketNameLabel" destination="DYY-ak-qKU" id="Ox2-d2-sbO"/>
+                                            <outlet property="timestampLabel" destination="Ebl-4G-QYY" id="HnO-EZ
