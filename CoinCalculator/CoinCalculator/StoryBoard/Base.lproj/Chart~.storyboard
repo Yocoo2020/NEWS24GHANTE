@@ -172,4 +172,8 @@
                                             <outlet property="timestampLabel" destination="Ebl-4G-QYY" id="HnO-EZ-AWF"/>
                                             <outlet property="volumLabel" destination="wez-QI-PlA" id="uqe-D4-JTG"/>
                                         </connections>
-                                    </tabl
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="9kR-8C-fkg"/>
+           
