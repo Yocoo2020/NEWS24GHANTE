@@ -176,4 +176,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="9kR-8C-fkg"/>
-           
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Igb-X8-OOa"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" trans
