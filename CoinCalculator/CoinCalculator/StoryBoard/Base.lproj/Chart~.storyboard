@@ -179,4 +179,7 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Igb-X8-OOa"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" trans
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JqC-f2-7ig">
+                                <rect key="frame" x="0.0" y="347" width="375" height="40"/>
+                                <subviews>
+                                    <label opa
