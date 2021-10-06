@@ -206,4 +206,6 @@
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="VnE-mB-d3C" secondAttribute="bottom" constant="5" id="6D3-w6-W7G"/>
                                     <constraint firstItem="VnE-mB-d3C" firstAttribute="leading" secondItem="JqC-f2-7ig" secondAttribute="leading" constant="10" id="Fko-Kl-wFb"/>
-                                    <constraint firstItem="VnE-mB-d3C" firstAttribute="top" sec
+                                    <constraint firstItem="VnE-mB-d3C" firstAttribute="top" secondItem="JqC-f2-7ig" secondAttribute="top" constant="5" id="cJK-Zo-eor"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Q5-iR-clc" secondAttribute="trailing" constant="10" id="cVn-k5-N0n"/>
+    
