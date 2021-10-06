@@ -205,4 +205,5 @@
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="VnE-mB-d3C" secondAttribute="bottom" constant="5" id="6D3-w6-W7G"/>
-                    
+                                    <constraint firstItem="VnE-mB-d3C" firstAttribute="leading" secondItem="JqC-f2-7ig" secondAttribute="leading" constant="10" id="Fko-Kl-wFb"/>
+                                    <constraint firstItem="VnE-mB-d3C" firstAttribute="top" sec
