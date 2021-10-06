@@ -208,4 +208,5 @@
                                     <constraint firstItem="VnE-mB-d3C" firstAttribute="leading" secondItem="JqC-f2-7ig" secondAttribute="leading" constant="10" id="Fko-Kl-wFb"/>
                                     <constraint firstItem="VnE-mB-d3C" firstAttribute="top" secondItem="JqC-f2-7ig" secondAttribute="top" constant="5" id="cJK-Zo-eor"/>
                                     <constraint firstAttribute="trailing" secondItem="2Q5-iR-clc" secondAttribute="trailing" constant="10" id="cVn-k5-N0n"/>
-    
+                                    <constraint firstAttribute="height" constant="40" id="cvZ-EW-X7W"/>
+                                    <constraint firstItem="2Q5-iR-clc" firstAttribute="leading" secondItem="VnE-mB-d3C" secondAttribute=
