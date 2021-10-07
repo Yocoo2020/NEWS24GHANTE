@@ -211,4 +211,7 @@
                                     <constraint firstAttribute="height" constant="40" id="cvZ-EW-X7W"/>
                                     <constraint firstItem="2Q5-iR-clc" firstAttribute="leading" secondItem="VnE-mB-d3C" secondAttribute="trailing" constant="5" id="sBD-uu-6ML"/>
                                     <constraint firstItem="2Q5-iR-clc" firstAttribute="centerY" secondItem="JqC-f2-7ig" secondAttribute="centerY" id="syM-Fi-5IO"/>
-                               
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EAa-p2-3Bm">
+                                <rect key="frame" x="0.0"
