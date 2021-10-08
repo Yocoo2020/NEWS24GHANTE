@@ -216,4 +216,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EAa-p2-3Bm">
                                 <rect key="frame" x="0.0" y="387" width="375" height="280"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstrai
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FWv-uh-s86">
+                                        <rect key="frame" x="0.0" y="50" width="375" height="230"/>
+                                        <subviews>
+                                            <stack
