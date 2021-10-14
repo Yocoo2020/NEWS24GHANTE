@@ -242,4 +242,6 @@
                                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
-                                                            <userDefinedRu
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="buttonBorder" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                               
