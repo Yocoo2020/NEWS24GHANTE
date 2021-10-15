@@ -246,4 +246,8 @@
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LQW-fX-WM8"/>
-                                                    
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaqu
