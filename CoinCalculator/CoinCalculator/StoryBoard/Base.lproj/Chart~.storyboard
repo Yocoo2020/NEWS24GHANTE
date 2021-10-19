@@ -261,4 +261,7 @@
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
-                                                            <userDefinedRuntimeAttribute type="boole
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="buttonBorder" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                        
