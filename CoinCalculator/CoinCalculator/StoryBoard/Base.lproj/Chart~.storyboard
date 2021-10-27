@@ -290,4 +290,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="buttonBorder" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eve
+                                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pbM-9d-t3S"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO
