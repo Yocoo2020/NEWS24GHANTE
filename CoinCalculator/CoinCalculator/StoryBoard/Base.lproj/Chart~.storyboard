@@ -293,4 +293,6 @@
                                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pbM-9d-t3S"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLf-bv-ziQ" customClass="CalculatorButton"
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLf-bv-ziQ" customClass="CalculatorButton" customModule="CoinCalculator" customModuleProvider="target">
+                                                        <rect key="frame" x="281.5" y="0.0" width="93.5" height="46"/>
+                                      
