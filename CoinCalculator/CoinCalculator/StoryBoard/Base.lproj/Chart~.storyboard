@@ -309,4 +309,6 @@
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="kLC-wO-MgA" firstAttribute="width" secondItem="dLf-bv-ziQ" secondAttribute="width" id="6gY-lB-ZXV"/>
-                                                    <constraint firstItem="Dey-gA-4AK" firstAttribute="width" secondI
+                                                    <constraint firstItem="Dey-gA-4AK" firstAttribute="width" secondItem="kLC-wO-MgA" secondAttribute="width" id="Rlz-lb-qFz"/>
+                                                    <constraint firstItem="TkF-l6-EEh" firstAttribute="width" secondItem="Dey-gA-4AK" secondAttribute="width" id="T9o-H6-K0g"/>
+            
