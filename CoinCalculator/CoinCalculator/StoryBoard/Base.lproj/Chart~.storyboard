@@ -305,4 +305,7 @@
                                                         <connections>
                                                             <action selector="multiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BFN-yb-3NM"/>
                                                         </connections>
-            
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstIt
