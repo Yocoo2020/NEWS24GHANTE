@@ -316,4 +316,4 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfl-u4-bR9">
                                                 <rect key="frame" x="0.0" y="92" width="375" height="46"/>
                                                 <subviews>
-                 
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO"
