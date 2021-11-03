@@ -313,4 +313,7 @@
                                                     <constraint firstItem="TkF-l6-EEh" firstAttribute="width" secondItem="Dey-gA-4AK" secondAttribute="width" id="T9o-H6-K0g"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIn
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfl-u4-bR9">
+                                                <rect key="frame" x="0.0" y="92" width="375" height="46"/>
+                                                <subviews>
+                 
