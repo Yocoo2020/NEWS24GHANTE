@@ -335,4 +335,6 @@
                                                         <state key="normal" title="5">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
-                      
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="buttonBorder" value="YES"/>
+                            
