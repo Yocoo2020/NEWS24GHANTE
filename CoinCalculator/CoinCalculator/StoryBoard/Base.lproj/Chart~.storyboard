@@ -331,4 +331,6 @@
                                                     </button>
                                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQy-Mg-5F0" customClass="CalculatorButton" customModule="CoinCalculator" customModuleProvider="target">
                                                         <rect key="frame" x="94" y="0.0" width="93.5" height="46"/>
-                                                        <color key="backgroundColor" white="0.33
+                                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="5">
+                                          
