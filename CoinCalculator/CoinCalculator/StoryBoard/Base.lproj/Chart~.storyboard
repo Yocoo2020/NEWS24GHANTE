@@ -339,4 +339,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="buttonBorder" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="numberPressed:" destination="BYZ-38-
+                                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jk2-sl-jVe"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button 
