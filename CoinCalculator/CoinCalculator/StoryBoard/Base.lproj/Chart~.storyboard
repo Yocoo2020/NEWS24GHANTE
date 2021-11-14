@@ -357,4 +357,6 @@
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tn-ul-CuC" customClass="CalculatorButton" customModule="CoinCalculator" customModuleProvider="target">
                                                         <rect key="frame" x="281.5" y="0.0" width="93.5" height="46"/>
-                                                        <color key="backgroundColor" red="0.98823529409999999" green="0.68235294120000001" blue="0.3803921569" alpha="1" colorSpace
+                                                        <color key="backgroundColor" red="0.98823529409999999" green="0.68235294120000001" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <state key="normal" title="-">
+                                                            <color key="titleColor" red="0.99999600649999998" green="1" blu
