@@ -369,4 +369,6 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                               
+                                                <constraints>
+                                                    <constraint firstItem="GB3-R9-ngz" firstAttribute="width" secondItem="AQy-Mg-5F0" secondAttribute="width" id="Hmq-5B-ujH"/>
+                                       
