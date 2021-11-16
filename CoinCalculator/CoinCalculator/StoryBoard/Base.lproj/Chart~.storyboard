@@ -371,4 +371,5 @@
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="GB3-R9-ngz" firstAttribute="width" secondItem="AQy-Mg-5F0" secondAttribute="width" id="Hmq-5B-ujH"/>
-                                       
+                                                    <constraint firstItem="AQy-Mg-5F0" firstAttribute="width" secondItem="vxX-wT-fqM" secondAttribute="width" id="JKL-AZ-OmQ"/>
+                                                    <constraint firstItem="vxX-wT-fqM" firstAttribute="width" seco
