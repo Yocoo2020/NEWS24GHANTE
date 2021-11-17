@@ -375,4 +375,6 @@
                                                     <constraint firstItem="vxX-wT-fqM" firstAttribute="width" secondItem="7Tn-ul-CuC" secondAttribute="width" id="laN-k4-646"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackV
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wyM-sG-YcA">
+                                                <rect key="frame" x="0.0" y="138" width="375" height="46"/>
+                                
