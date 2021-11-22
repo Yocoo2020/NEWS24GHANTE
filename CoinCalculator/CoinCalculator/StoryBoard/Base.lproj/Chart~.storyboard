@@ -391,4 +391,4 @@
                                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vPq-LC-zvZ"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVertic
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sP0-UC-ctk" customClass="CalculatorButton" customModule="CoinCalculator" customModuleProvider="target">
