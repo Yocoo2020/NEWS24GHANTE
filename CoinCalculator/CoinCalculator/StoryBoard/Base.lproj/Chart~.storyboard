@@ -404,4 +404,5 @@
                                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jwh-CH-TC8"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizi
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUi-aw-Sew" customClass="CalculatorButton" customModule="CoinCalculator" customModuleProvider="target">
+                                                        <rect key="frame" x="
