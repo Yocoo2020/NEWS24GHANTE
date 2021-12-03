@@ -417,4 +417,6 @@
                                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zbp-lZ-7LE"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEF-bK-x6G" customClass="CalculatorButton" customModule="CoinCalculator" customModuleProv
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEF-bK-x6G" customClass="CalculatorButton" customModule="CoinCalculator" customModuleProvider="target">
+                                                        <rect key="frame" x="281.5" y="0.0" width="93.5" height="46"/>
+                                                        <color key="backgroundColor" red="0.98823529409999999" g
