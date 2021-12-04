@@ -425,4 +425,6 @@
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="buttonBorder" value="YES"/>
- 
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                     
