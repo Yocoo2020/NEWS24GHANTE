@@ -427,4 +427,6 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="buttonBorder" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                     
+                                                            <action selector="addPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mN4-ya-Ike"/>
+                                                        </connections>
+                                     
