@@ -435,4 +435,6 @@
                                                     <constraint firstItem="sP0-UC-ctk" firstAttribute="width" secondItem="oUi-aw-Sew" secondAttribute="width" id="1u7-eG-TbT"/>
                                                     <constraint firstItem="oUi-aw-Sew" firstAttribute="width" secondItem="xEF-bK-x6G" secondAttribute="width" id="6dS-XV-QU8"/>
                                                     <constraint firstItem="MGM-FQ-fyy" firstAttribute="width" secondItem="sP0-UC-ctk" secondAttribute="width" id="j4G-5n-NAk"/>
-                     
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoC
