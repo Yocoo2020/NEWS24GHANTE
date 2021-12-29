@@ -463,4 +463,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="buttonBorder" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="dotPressed:" destination="BYZ-38-t0r" 
+                                                            <action selector="dotPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qeg-a8-zVo"/>
+                                                        </connections>
+                                                    </button>
+                                                    <b
