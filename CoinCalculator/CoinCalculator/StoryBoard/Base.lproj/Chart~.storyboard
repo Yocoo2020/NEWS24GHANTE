@@ -466,4 +466,4 @@
                                                             <action selector="dotPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qeg-a8-zVo"/>
                                                         </connections>
                                                     </button>
-                                                    <b
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iln-os-t4p" c
