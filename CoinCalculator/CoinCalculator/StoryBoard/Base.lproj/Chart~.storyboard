@@ -477,4 +477,8 @@
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sQi-ER-0K9"/>
-                       
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+               
