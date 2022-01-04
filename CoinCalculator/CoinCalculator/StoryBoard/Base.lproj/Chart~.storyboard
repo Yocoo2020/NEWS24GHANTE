@@ -486,4 +486,5 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constra
+                                            <constraint firstItem="sP0-UC-ctk" firstAttribute="width" secondItem="899-bW-64N" secondAttribute="width" id="3yF-pS-AN2"/>
+                                            <constraint firstItem="q2c-LL-bmG" firstAttribute="height" secondItem="wyM-sG-YcA" secondAttri
