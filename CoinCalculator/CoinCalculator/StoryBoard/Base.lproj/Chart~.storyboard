@@ -490,4 +490,6 @@
                                             <constraint firstItem="q2c-LL-bmG" firstAttribute="height" secondItem="wyM-sG-YcA" secondAttribute="height" id="9IH-cD-hGt"/>
                                             <constraint firstItem="jpr-P5-RNv" firstAttribute="width" secondItem="dLf-bv-ziQ" secondAttribute="width" id="jKf-k7-Rar"/>
                                             <constraint firstItem="Bfl-u4-bR9" firstAttribute="height" secondItem="gKW-dW-wOg" secondAttribute="height" id="kP7-e0-rWX"/>
-                                            <constraint firstItem="wyM-sG-YcA" firstAttribute="height" secondItem="
+                                            <constraint firstItem="wyM-sG-YcA" firstAttribute="height" secondItem="Bfl-u4-bR9" secondAttribute="height" id="qNh-RN-Yk4"/>
+                                            <constraint firstItem="gKW-dW-wOg" firstAttribute="height" secondItem="E60-Et-9aW" secondAttribute="height" id="yn7-2L-HTx"/>
+         
