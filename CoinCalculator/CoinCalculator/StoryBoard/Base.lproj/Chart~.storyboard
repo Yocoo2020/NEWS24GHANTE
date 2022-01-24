@@ -509,4 +509,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="280" id="7c4-TF-rNA"/>
                                     <constraint firstItem="MfZ-3W-gM8" firstAttribute="top" secondItem="EAa-p2-3Bm" secondAttribute="top" constant="10" id="9tJ-01-nsn"/>
-                                    <constraint firstItem="FWv-uh-s86" firstAttribute="leading" secondItem="
+                                    <constraint firstItem="FWv-uh-s86" firstAttribute="leading" secondItem="EAa-p2-3Bm" secondAttribute="leading" id="JGE-Lq-HkP"/>
+                                    <constraint firstAttribute="trailing" secondItem="FWv-uh-s86" secondAttribute="trailing" id="c96-IA-3gP"/>
+                                    <co
