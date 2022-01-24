@@ -511,4 +511,5 @@
                                     <constraint firstItem="MfZ-3W-gM8" firstAttribute="top" secondItem="EAa-p2-3Bm" secondAttribute="top" constant="10" id="9tJ-01-nsn"/>
                                     <constraint firstItem="FWv-uh-s86" firstAttribute="leading" secondItem="EAa-p2-3Bm" secondAttribute="leading" id="JGE-Lq-HkP"/>
                                     <constraint firstAttribute="trailing" secondItem="FWv-uh-s86" secondAttribute="trailing" id="c96-IA-3gP"/>
-                                    <co
+                                    <constraint firstItem="FWv-uh-s86" firstAttribute="top" secondItem="MfZ-3W-gM8" secondAttribute="bottom" constant="10" id="d33-fZ-f2w"/>
+                                    <constraint firstAttribute="trailing" secondItem="MfZ-3W-gM
