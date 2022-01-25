@@ -514,4 +514,7 @@
                                     <constraint firstItem="FWv-uh-s86" firstAttribute="top" secondItem="MfZ-3W-gM8" secondAttribute="bottom" constant="10" id="d33-fZ-f2w"/>
                                     <constraint firstAttribute="trailing" secondItem="MfZ-3W-gM8" secondAttribute="trailing" constant="10" id="gpn-YH-LOd"/>
                                     <constraint firstItem="MfZ-3W-gM8" firstAttribute="leading" secondItem="EAa-p2-3Bm" secondAttribute="leading" constant="10" id="k5o-YN-Wwy"/>
-              
+                                    <constraint firstAttribute="bottom" secondItem="FWv-uh-s86" secondAttribute="bottom" id="mUN-xW-eKV"/>
+                                </constraints>
+                            </view>
+           
