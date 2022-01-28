@@ -524,4 +524,6 @@
                             <constraint firstItem="Trl-VF-VAl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bqc-1B-Y8r"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EAa-p2-3Bm" secondAttribute="trailing" id="hho-y0-7Eq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EAa-p2-3Bm" secondAttribute="bottom" id="lDM-oU-LYG"/>
-                            <constraint firstItem="EAa-p2-3Bm" firstAttribute="leading" secondItem="6Tk-OE-BBY
+                            <constraint firstItem="EAa-p2-3Bm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="s1h-8T-tJG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Trl-VF-VAl" secondAttribute="trailing" id="ssv-7R-bOQ"/>
+                          
