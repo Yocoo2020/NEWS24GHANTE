@@ -531,4 +531,8 @@
                             <constraint firstItem="EAa-p2-3Bm" firstAttribute="top" secondItem="JqC-f2-7ig" secondAttribute="bottom" id="xxU-IE-v8B"/>
                             <constraint firstItem="Trl-VF-VAl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z3K-go-9cL"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="レート" id="Jt0-D9-SCb"/>
+                    <connections>
+                        <outlet property="calculatorHeight" destina
