@@ -529,4 +529,6 @@
                             <constraint firstItem="JqC-f2-7ig" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tx0-vJ-Av1"/>
                             <constraint firstItem="JqC-f2-7ig" firstAttribute="top" secondItem="Trl-VF-VAl" secondAttribute="bottom" id="wOg-tZ-Z1S"/>
                             <constraint firstItem="EAa-p2-3Bm" firstAttribute="top" secondItem="JqC-f2-7ig" secondAttribute="bottom" id="xxU-IE-v8B"/>
-                    
+                            <constraint firstItem="Trl-VF-VAl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z3K-go-9cL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6
