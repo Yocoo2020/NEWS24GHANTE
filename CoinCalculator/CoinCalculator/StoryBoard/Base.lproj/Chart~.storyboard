@@ -535,4 +535,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="レート" id="Jt0-D9-SCb"/>
                     <connections>
-                        <outlet property="calculatorHeight" destina
+                        <outlet property="calculatorHeight" destination="7c4-TF-rNA" id="pf7-0B-BM8"/>
+                        <outlet property="calculatorView" destination="EAa-p2-3Bm" id="Hxp-Dj-vSI"/>
+                        <outlet property="outputLabel" destination="MfZ-3W-gM8" i
