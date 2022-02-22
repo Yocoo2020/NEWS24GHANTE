@@ -543,4 +543,9 @@
                         <segue destination="Lio-cH-TMq" kind="show" identifier="CoinInfoSegue" id="Icd-EM-cl6"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" s
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="472.80000000000001" y="121.88905547226388"/>
+        </scene>
+        <!--Coin Infor View Controller-->
+        <scene sceneID="QFS-
