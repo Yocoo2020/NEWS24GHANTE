@@ -540,4 +540,7 @@
                         <outlet property="outputLabel" destination="MfZ-3W-gM8" id="7Ji-HK-gtm"/>
                         <outlet property="showCalculatorButton" destination="2Q5-iR-clc" id="p3X-83-rdP"/>
                         <outlet property="tabieView" destination="Trl-VF-VAl" id="ovD-qt-hBc"/>
-                      
+                        <segue destination="Lio-cH-TMq" kind="show" identifier="CoinInfoSegue" id="Icd-EM-cl6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" s
