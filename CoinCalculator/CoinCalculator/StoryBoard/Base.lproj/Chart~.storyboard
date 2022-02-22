@@ -537,4 +537,7 @@
                     <connections>
                         <outlet property="calculatorHeight" destination="7c4-TF-rNA" id="pf7-0B-BM8"/>
                         <outlet property="calculatorView" destination="EAa-p2-3Bm" id="Hxp-Dj-vSI"/>
-                        <outlet property="outputLabel" destination="MfZ-3W-gM8" i
+                        <outlet property="outputLabel" destination="MfZ-3W-gM8" id="7Ji-HK-gtm"/>
+                        <outlet property="showCalculatorButton" destination="2Q5-iR-clc" id="p3X-83-rdP"/>
+                        <outlet property="tabieView" destination="Trl-VF-VAl" id="ovD-qt-hBc"/>
+                      
