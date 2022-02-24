@@ -551,4 +551,6 @@
         <scene sceneID="QFS-zT-k15">
             <objects>
                 <viewController id="Lio-cH-TMq" customClass="CoinInforViewController" customModule="CoinCalculator" customModuleProvider="target" sceneMemberID="viewController">
-                    <vi
+                    <view key="view" contentMode="scaleToFill" id="VyN-sg-U6Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable
