@@ -548,4 +548,7 @@
             <point key="canvasLocation" x="472.80000000000001" y="121.88905547226388"/>
         </scene>
         <!--Coin Infor View Controller-->
-        <scene sceneID="QFS-
+        <scene sceneID="QFS-zT-k15">
+            <objects>
+                <viewController id="Lio-cH-TMq" customClass="CoinInforViewController" customModule="CoinCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <vi
