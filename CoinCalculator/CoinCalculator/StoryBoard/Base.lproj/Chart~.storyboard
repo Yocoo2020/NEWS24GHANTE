@@ -570,4 +570,8 @@
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="COc-Hx-gWr">
                                 <rect key="frame" x="0.0" y="334" width="375" height="333"/>
-             
+                                <connections>
+                                    <segue destination="t0z-2V-OMQ" kind="embed" id="crG-jK-Hgh"/>
+                                </connections>
+                            </containerView>
+          
