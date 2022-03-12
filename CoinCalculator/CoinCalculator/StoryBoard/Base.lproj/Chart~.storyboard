@@ -579,4 +579,6 @@
                         <constraints>
                             <constraint firstItem="xQA-p8-QuI" firstAttribute="bottom" secondItem="0mt-np-6iF" secondAttribute="bottom" id="1Kq-q5-sNs"/>
                             <constraint firstItem="COc-Hx-gWr" firstAttribute="height" secondItem="VyN-sg-U6Z" secondAttribute="height" multiplier="1:2" id="4tZ-V8-OWC"/>
-                            <constraint firstItem="0mt-np-6iF" firstAttribute="leading" secondItem="xQA-p8-QuI" secondAttribute="leading" id="AO
+                            <constraint firstItem="0mt-np-6iF" firstAttribute="leading" secondItem="xQA-p8-QuI" secondAttribute="leading" id="AOQ-iy-j3G"/>
+                            <constraint firstItem="xQA-p8-QuI" firstAttribute="trailing" secondItem="0mt-np-6iF" secondAttribute="trailing" id="KUM-e7-8ph"/>
+                            <constraint
