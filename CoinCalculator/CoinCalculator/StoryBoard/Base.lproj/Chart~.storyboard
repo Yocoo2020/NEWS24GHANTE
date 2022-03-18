@@ -587,4 +587,8 @@
                             <constraint firstItem="xQA-p8-QuI" firstAttribute="trailing" secondItem="COc-Hx-gWr" secondAttribute="trailing" id="aCC-wc-mOW"/>
                             <constraint firstItem="COc-Hx-gWr" firstAttribute="leading" secondItem="xQA-p8-QuI" secondAttribute="leading" id="alM-Yg-Or1"/>
                             <constraint firstItem="EaW-gX-w23" firstAttribute="centerX" secondItem="VyN-sg-U6Z" secondAttribute="centerX" id="zt8-kx-l49"/>
-   
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xQA-p8-QuI"/>
+                    </view>
+                    <connections>
+                        <outlet property="chartView" des
