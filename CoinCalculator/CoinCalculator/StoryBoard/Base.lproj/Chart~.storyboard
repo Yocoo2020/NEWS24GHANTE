@@ -584,4 +584,5 @@
                             <constraint firstItem="0mt-np-6iF" firstAttribute="height" secondItem="VyN-sg-U6Z" secondAttribute="height" multiplier="1:2" id="Mhi-5i-JuL"/>
                             <constraint firstItem="COc-Hx-gWr" firstAttribute="top" secondItem="EaW-gX-w23" secondAttribute="bottom" constant="1" id="PTv-xh-Mrl"/>
                             <constraint firstItem="xQA-p8-QuI" firstAttribute="bottom" secondItem="COc-Hx-gWr" secondAttribute="bottom" id="Tt3-gf-0gr"/>
-                          
+                            <constraint firstItem="xQA-p8-QuI" firstAttribute="trailing" secondItem="COc-Hx-gWr" secondAttribute="trailing" id="aCC-wc-mOW"/>
+                            <constraint firstItem="COc-Hx-gWr" firstAttribute="leading" s
