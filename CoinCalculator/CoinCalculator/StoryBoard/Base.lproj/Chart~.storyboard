@@ -596,4 +596,11 @@
                         <outlet property="segmentedControl" destination="EaW-gX-w23" id="zWf-EL-ZLS"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="klj-Rz-mnv" userLabel="First Responder" sceneMemberID="firstRes
+                <placeholder placeholderIdentifier="IBFirstResponder" id="klj-Rz-mnv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1280.8" y="121.88905547226388"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wr4-RO-GKJ">
+            <objects>
+   
