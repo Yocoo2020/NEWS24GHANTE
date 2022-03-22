@@ -593,4 +593,7 @@
                     <connections>
                         <outlet property="chartView" destination="0mt-np-6iF" id="bqe-gZ-7fr"/>
                         <outlet property="marketView" destination="COc-Hx-gWr" id="817-ux-0wK"/>
-                        <outlet property="segmentedControl" destination="EaW-gX-w23" i
+                        <outlet property="segmentedControl" destination="EaW-gX-w23" id="zWf-EL-ZLS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="klj-Rz-mnv" userLabel="First Responder" sceneMemberID="firstRes
