@@ -603,4 +603,6 @@
         <!--Navigation Controller-->
         <scene sceneID="Wr4-RO-GKJ">
             <objects>
-   
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bbi-DU-puS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scale
