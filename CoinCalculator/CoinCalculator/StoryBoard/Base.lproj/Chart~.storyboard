@@ -621,4 +621,5 @@
         <!--Market View Controller-->
         <scene sceneID="0Fu-zy-bad">
             <objects>
-                <view
+                <viewController id="t0z-2V-OMQ" customClass="MarketViewController" customModule="CoinCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id=
