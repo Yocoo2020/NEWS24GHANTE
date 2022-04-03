@@ -622,4 +622,8 @@
         <scene sceneID="0Fu-zy-bad">
             <objects>
                 <viewController id="t0z-2V-OMQ" customClass="MarketViewController" customModule="CoinCalculator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id=
+                    <view key="view" contentMode="scaleToFill" id="hQg-c6-E0N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="333"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+               
