@@ -670,4 +670,6 @@
                                                         <constraint firstItem="w1P-fE-PSd" firstAttribute="centerX" secondItem="Qcq-97-Ytg" secondAttribute="centerX" id="cFb-mE-YGG"/>
                                                         <constraint firstItem="w1P-fE-PSd" firstAttribute="leading" secondItem="paQ-II-27z" secondAttribute="trailing" constant="20" id="fKG-DJ-QMF"/>
                                                         <constraint firstAttribute="trailing" secondItem="ck8-tr-AJu" secondAttribute="trailing" id="ie8-fv-bso"/>
-                                                        <constraint firstItem="paQ-II-27z" firstAttribute="width" secondItem="ck8-tr-AJu"
+                                                        <constraint firstItem="paQ-II-27z" firstAttribute="width" secondItem="ck8-tr-AJu" secondAttribute="width" id="tqO-Ts-PS9"/>
+                                                        <constraint firstAttribute="bottom" secondItem="ck8-tr-AJu" secondAttribute="bottom" id="x2y-OZ-m96"/>
+                          
