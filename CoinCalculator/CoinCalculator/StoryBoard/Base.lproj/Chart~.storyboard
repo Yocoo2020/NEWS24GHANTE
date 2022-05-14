@@ -679,4 +679,6 @@
                                                 <constraint firstItem="Qcq-97-Ytg" firstAttribute="top" secondItem="bjs-gz-FyK" secondAttribute="top" id="M8t-U8-wTm"/>
                                                 <constraint firstAttribute="bottom" secondItem="Qcq-97-Ytg" secondAttribute="bottom" id="e0a-Ch-N7r"/>
                                                 <constraint firstItem="Qcq-97-Ytg" firstAttribute="leading" secondItem="bjs-gz-FyK" secondAttribute="leading" id="eRN-Di-9U9"/>
-                                   
+                                                <constraint firstAttribute="trailing" secondItem="Qcq-97-Ytg" secondAttribute="trailing" id="iU5-Ng-K62"/>
+                                            </constraints>
+                                        </ta
