@@ -677,4 +677,6 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Qcq-97-Ytg" firstAttribute="top" secondItem="bjs-gz-FyK" secondAttribute="top" id="M8t-U8-wTm"/>
-                                                <constraint firstAttribute="bottom" secondItem="Qcq-97-Ytg" secondAttribute="bottom
+                                                <constraint firstAttribute="bottom" secondItem="Qcq-97-Ytg" secondAttribute="bottom" id="e0a-Ch-N7r"/>
+                                                <constraint firstItem="Qcq-97-Ytg" firstAttribute="leading" secondItem="bjs-gz-FyK" secondAttribute="leading" id="eRN-Di-9U9"/>
+                                   
