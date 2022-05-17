@@ -684,4 +684,6 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="asksSizeLabel" destination="paQ-II-27z" id="2Fs-Yp-xGO"/>
-                                        
+                                            <outlet property="bidsSizeLabel" destination="ck8-tr-AJu" id="n8d-K4-U33"/>
+                                            <outlet property="priceLabel" destination="w1P-fE-PSd" id="nCe-RV-Ne4"/>
+                                      
