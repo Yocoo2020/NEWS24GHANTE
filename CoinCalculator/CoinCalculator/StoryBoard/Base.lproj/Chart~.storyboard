@@ -681,4 +681,7 @@
                                                 <constraint firstItem="Qcq-97-Ytg" firstAttribute="leading" secondItem="bjs-gz-FyK" secondAttribute="leading" id="eRN-Di-9U9"/>
                                                 <constraint firstAttribute="trailing" secondItem="Qcq-97-Ytg" secondAttribute="trailing" id="iU5-Ng-K62"/>
                                             </constraints>
-                                        </ta
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="asksSizeLabel" destination="paQ-II-27z" id="2Fs-Yp-xGO"/>
+                                        
