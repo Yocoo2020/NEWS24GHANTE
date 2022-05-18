@@ -690,4 +690,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" desti
+                                    <outlet property="dataSource" destination="t0z-2V-OMQ" id="GmL-0K-bOi"/>
+                                    <outlet property="delegate" destination="t0z-2V-OMQ" id="Blm-9g-QGw"/>
+                                </connections>
+                            </tableView>
+              
