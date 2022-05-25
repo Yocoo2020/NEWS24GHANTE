@@ -694,4 +694,7 @@
                                     <outlet property="delegate" destination="t0z-2V-OMQ" id="Blm-9g-QGw"/>
                                 </connections>
                             </tableView>
-              
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="9Wt-2D-ssI" firstAttribute="top" secondItem="pbG-kB-cf0" secondAttribute="top" id="JUG-Wr-sZT"/>
+                 
