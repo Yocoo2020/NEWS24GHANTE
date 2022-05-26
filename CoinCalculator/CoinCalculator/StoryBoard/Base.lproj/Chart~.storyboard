@@ -697,4 +697,5 @@
                         </subviews>
                         <constraints>
                             <constraint firstItem="9Wt-2D-ssI" firstAttribute="top" secondItem="pbG-kB-cf0" secondAttribute="top" id="JUG-Wr-sZT"/>
-                 
+                            <constraint firstItem="pbG-kB-cf0" firstAttribute="bottom" secondItem="9Wt-2D-ssI" secondAttribute="bottom" id="Mrh-US-1gE"/>
+                            <constraint firstItem="pbG-kB-cf0" firstAttribute="trailin
