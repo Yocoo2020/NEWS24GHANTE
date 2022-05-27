@@ -704,4 +704,6 @@
                         <viewLayoutGuide key="safeArea" id="pbG-kB-cf0"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIden
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vug-5h-5Ph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="4GC-Rf-cLS">
+                    <rect key="frame
