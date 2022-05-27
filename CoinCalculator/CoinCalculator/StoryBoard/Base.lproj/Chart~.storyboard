@@ -700,3 +700,8 @@
                             <constraint firstItem="pbG-kB-cf0" firstAttribute="bottom" secondItem="9Wt-2D-ssI" secondAttribute="bottom" id="Mrh-US-1gE"/>
                             <constraint firstItem="pbG-kB-cf0" firstAttribute="trailing" secondItem="9Wt-2D-ssI" secondAttribute="trailing" id="cJ2-gx-6h5"/>
                             <constraint firstItem="9Wt-2D-ssI" firstAttribute="leading" secondItem="pbG-kB-cf0" secondAttribute="leading" id="dc8-1B-VKx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pbG-kB-cf0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIden
