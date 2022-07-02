@@ -744,4 +744,8 @@
                         <constraint firstItem="WH8-cT-te1" firstAttribute="bottom" secondItem="1CM-Th-fZH" secondAttribute="bottom" id="eHB-ep-YMj"/>
                         <constraint firstAttribute="bottom" secondItem="mhp-0Q-WA9" secondAttribute="bottom" id="ldC-U0-qhr"/>
                         <constraint firstItem="5pF-X3-njG" firstAttribute="leading" secondItem="mhp-0Q-WA9" secondAttribute="trailing" constant="20" id="nCS-05-wFV"/>
-                        <constraint 
+                        <constraint firstItem="5pF-X3-njG" firstAttribute="top" secondItem="WH8-cT-te1" secondAttribute="top" id="vaK-75-duI"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="WH8-cT-te1"/>
+                </view>
+         
