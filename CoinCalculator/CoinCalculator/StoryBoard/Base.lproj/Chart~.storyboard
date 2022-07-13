@@ -748,4 +748,10 @@
                     </constraints>
                     <viewLayoutGuide key="safeArea" id="WH8-cT-te1"/>
                 </view>
-         
+            </objects>
+            <point key="canvasLocation" x="2303" y="106"/>
+        </scene>
+        <!--Chart View Controller-->
+        <scene sceneID="9xh-Wf-X0N">
+            <objects>
+                <viewController id="mPX-dd-BVZ" customClass="ChartViewController" customMo
