@@ -754,4 +754,6 @@
         <!--Chart View Controller-->
         <scene sceneID="9xh-Wf-X0N">
             <objects>
-                <viewController id="mPX-dd-BVZ" customClass="ChartViewController" customMo
+                <viewController id="mPX-dd-BVZ" customClass="ChartViewController" customModule="CoinCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Wo-DY-yMv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" h
