@@ -768,4 +768,5 @@
                         </subviews>
                         <color key="backgroundColor" red="0.94328745579999995" green="1" blue="0.3527270066" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                   
+                            <constraint firstItem="BVA-fE-nV4" firstAttribute="centerY" secondItem="9Wo-DY-yMv" secondAttribute="centerY" id="71Q-u8-Pac"/>
+                            <constraint firstItem="BVA-fE-nV4" firstAttribute="centerX" secon
