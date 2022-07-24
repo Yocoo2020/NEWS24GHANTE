@@ -781,4 +781,9 @@
         <scene sceneID="oN5-g7-uMz">
             <objects>
                 <viewControllerPlaceholder id="4Ny-td-JSU" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GZK-Ob-NhY" userLabel
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GZK-Ob-NhY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3298" y="400"/>
+        </scene>
+    </scenes>
+</document>
