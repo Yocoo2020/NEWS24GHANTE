@@ -718,3 +718,14 @@
         <scene sceneID="PGT-ck-r77">
             <objects>
                 <viewControllerPlaceholder storyboardName="Chart" id="fk1-9z-CCH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9C-7G-UZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2302" y="368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calc_icon.png" width="256" height="256"/>
+        <image name="no_image.png" width="191" height="191"/>
+        <image name="switch_arrow.png" width="512" height="512"/>
+    </resources>
+</document>
