@@ -27,4 +27,9 @@
                             <constraint firstItem="xwb-0p-nxN" firstAttribute="top" secondItem="5yW-w5-ykO" secondAttribute="top" id="AcL-k8-tQX"/>
                             <constraint firstItem="xwb-0p-nxN" firstAttribute="trailing" secondItem="5yW-w5-ykO" secondAttribute="trailing" id="Dgp-ae-3xA"/>
                             <constraint firstItem="5yW-w5-ykO" firstAttribute="bottom" secondItem="xwb-0p-nxN" secondAttribute="bottom" id="bUo-vJ-Ofp"/>
-                            <constraint firstItem="xwb-0p-nxN" firstAttribute="leading" secondItem="5yW-w5-ykO" secondAttribute="leading" id="iTu-
+                            <constraint firstItem="xwb-0p-nxN" firstAttribute="leading" secondItem="5yW-w5-ykO" secondAttribute="leading" id="iTu-Lz-Mo7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5yW-w5-ykO"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simu
