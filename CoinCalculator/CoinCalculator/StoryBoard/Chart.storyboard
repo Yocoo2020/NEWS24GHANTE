@@ -32,4 +32,8 @@
                         <viewLayoutGuide key="safeArea" id="5yW-w5-ykO"/>
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simu
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="320"/>
+                    <connections>
+                        <outlet property="c
