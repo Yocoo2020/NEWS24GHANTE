@@ -36,4 +36,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="320"/>
                     <connections>
-                        <outlet property="c
+                        <outlet property="chartView" destination="xwb-0p-nxN" id="4w2-tt-jzk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJD-Pc-XKn" userLabel="First Resp
