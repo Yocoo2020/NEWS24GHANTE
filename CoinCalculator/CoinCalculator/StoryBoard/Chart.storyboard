@@ -39,4 +39,9 @@
                         <outlet property="chartView" destination="xwb-0p-nxN" id="4w2-tt-jzk"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QJD-Pc-XKn" userLabel="First Resp
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJD-Pc-XKn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2301.5999999999999" y="471.8140929535233"/>
+        </scene>
+    </scenes>
+</document>
