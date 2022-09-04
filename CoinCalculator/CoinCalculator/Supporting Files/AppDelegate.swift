@@ -16,4 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var client: PubNub!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Overrid
+        // Override point for customization after application launch.
+        
+        //MARK: Setup realtime Client
+        self.client = BFCoinManager.shared.realtimeClient
+        self.client.addListener(self)
+        
+        BFCoinManag
