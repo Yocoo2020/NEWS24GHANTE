@@ -22,4 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.client = BFCoinManager.shared.realtimeClient
         self.client.addListener(self)
         
-        BFCoinManag
+        BFCoinManager.shared.start()
+        return true
+    }
+
+    func applicationWillResignActive(_ application: UIApplication) {
+        // Sent when the application is about to move from active to inactive state. This can occur for certain types of tem
