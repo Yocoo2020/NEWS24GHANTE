@@ -4,4 +4,15 @@
             "idiom":"iphone",
             "size":"20x20",
             "scale":"2x",
-            "filename":"Icon-App-20x2
+            "filename":"Icon-App-20x20@2x.png"
+        },
+        {
+            "idiom":"iphone",
+            "size":"20x20",
+            "scale":"3x",
+            "filename":"Icon-App-20x20@3x.png"
+        },
+        {
+            "idiom":"iphone",
+            "size":"29x29",
+            "s
