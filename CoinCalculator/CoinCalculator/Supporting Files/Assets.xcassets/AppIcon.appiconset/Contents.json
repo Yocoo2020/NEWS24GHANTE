@@ -106,4 +106,14 @@
             "idiom":"ipad",
             "size":"29x29",
             "scale":"2x",
-            "filename":"Icon-App-2
+            "filename":"Icon-App-29x29@2x.png"
+        },
+        {
+            "idiom":"ipad",
+            "size":"40x40",
+            "scale":"1x",
+            "filename":"Icon-App-40x40@1x.png"
+        },
+        {
+            "idiom":"ipad",
+            "size
