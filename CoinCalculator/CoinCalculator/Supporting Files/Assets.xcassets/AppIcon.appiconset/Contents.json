@@ -134,4 +134,12 @@
         },
         {
             "idiom":"ipad",
-    
+            "size":"72x72",
+            "scale":"1x",
+            "filename":"Icon-App-72x72@1x.png"
+        },
+        {
+            "idiom":"ipad",
+            "size":"72x72",
+            "scale":"2x",
+            "filename":"Icon-App-72x7
