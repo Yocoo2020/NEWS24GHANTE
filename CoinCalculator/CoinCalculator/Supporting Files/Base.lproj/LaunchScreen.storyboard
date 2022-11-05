@@ -22,4 +22,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="jsX-Cf-wOm">
                                 <rect key="frame" x="140" y="286" width="95" height="95"/>
-                            
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jsX-Cf-wOm" secondAttribute="height" multiplier="1:1" id="5db-VI-CIT"/>
+                                </constraints>
+                   
