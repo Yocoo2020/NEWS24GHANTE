@@ -25,4 +25,5 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jsX-Cf-wOm" secondAttribute="height" multiplier="1:1" id="5db-VI-CIT"/>
                                 </constraints>
-                   
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coin電卓" textAlignment="center" lineBreakMode="tailTruncation" bas
