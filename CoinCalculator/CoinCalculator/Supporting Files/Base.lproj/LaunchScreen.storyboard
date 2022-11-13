@@ -40,4 +40,6 @@
                             <constraint firstItem="L7P-uL-zCr" firstAttribute="top" secondItem="jsX-Cf-wOm" secondAttribute="bottom" constant="8" id="ZKe-4M-uev"/>
                             <constraint firstItem="L7P-uL-zCr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="bSe-gR-Sio"/>
                             <constraint firstItem="jsX-Cf-wOm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="lCK-uL-S8R"/>
-                            <constraint
+                            <constraint firstItem="jsX-Cf-wOm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qso-Ib-Vp1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BB
