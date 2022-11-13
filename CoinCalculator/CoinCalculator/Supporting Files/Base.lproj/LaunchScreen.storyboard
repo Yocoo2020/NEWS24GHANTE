@@ -42,4 +42,9 @@
                             <constraint firstItem="jsX-Cf-wOm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="lCK-uL-S8R"/>
                             <constraint firstItem="jsX-Cf-wOm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qso-Ib-Vp1"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BB
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+    
