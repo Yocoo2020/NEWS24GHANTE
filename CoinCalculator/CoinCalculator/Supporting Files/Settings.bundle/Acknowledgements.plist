@@ -301,4 +301,7 @@ http://www.pubnub.com/terms
 	</array>
 	<key>StringsTable</key>
 	<string>Acknowledgements</string>
-	<key>Title</
+	<key>Title</key>
+	<string>Acknowledgements</string>
+</dict>
+</plist>
