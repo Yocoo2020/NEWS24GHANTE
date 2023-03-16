@@ -886,3 +886,166 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAA13C6220219D430061FCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0739B1A5CA2FD982CDAEA7 /* Pods-CoinCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8RKPBJ3Y3;
+				INFOPLIST_FILE = CoinCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kjcode.vkdlxh.coincalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DAA13C6320219D430061FCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9F55D54272E5AD8A2FC190 /* Pods-CoinCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8RKPBJ3Y3;
+				INFOPLIST_FILE = CoinCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kjcode.vkdlxh.coincalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DAA13C6520219D430061FCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1B185AEC93EF09BF8470D7 /* Pods-CoinCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8RKPBJ3Y3;
+				INFOPLIST_FILE = CoinCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.archive-asia.CoinCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinCalculator.app/CoinCalculator";
+			};
+			name = Debug;
+		};
+		DAA13C6620219D430061FCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB527DDC234A594130FB113 /* Pods-CoinCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8RKPBJ3Y3;
+				INFOPLIST_FILE = CoinCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.archive-asia.CoinCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinCalculator.app/CoinCalculator";
+			};
+			name = Release;
+		};
+		DAA13C6820219D430061FCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001EF5B27B763C20F49D31D8 /* Pods-CoinCalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8RKPBJ3Y3;
+				INFOPLIST_FILE = CoinCalculatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.archive-asia.CoinCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinCalculator;
+			};
+			name = Debug;
+		};
+		DAA13C6920219D430061FCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A05D3E1B80D121F4E6B8C3 /* Pods-CoinCalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8RKPBJ3Y3;
+				INFOPLIST_FILE = CoinCalculatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.archive-asia.CoinCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAA13C3420219D420061FCE0 /* Build configuration list for PBXProject "CoinCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA13C5F20219D430061FCE0 /* Debug */,
+				DAA13C6020219D430061FCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA13C6120219D430061FCE0 /* Build configuration list for PBXNativeTarget "CoinCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA13C6220219D430061FCE0 /* Debug */,
+				DAA13C6320219D430061FCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA13C6420219D430061FCE0 /* Build configuration list for PBXNativeTarget "CoinCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA13C6520219D430061FCE0 /* Debug */,
+				DAA13C6620219D430061FCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA13C6720219D430061FCE0 /* Build configuration list for PBXNativeTarget "CoinCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA13C6820219D430061FCE0 /* Debug */,
+				DAA13C6920219D430061FCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA13C3120219D420061FCE0 /* Project object */;
+}
