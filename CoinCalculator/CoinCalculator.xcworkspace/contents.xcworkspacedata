@@ -2,6 +2,4 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CoinCalculator.xcodeproj">
-   </FileRef>
-</Workspace>
+      location = "group:CoinCalculator.xcodeproj">
