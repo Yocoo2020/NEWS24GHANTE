@@ -14,3 +14,15 @@ target 'CoinCalculator' do
     inherit! :search_paths
     # Pods for testing
   end
+
+  target 'CoinCalculatorUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+post_install do | installer |
+  require 'fileutils'
+
+  FileUtils.cp_r('Pods/Target Support Files/Pods-CoinCalculator/Pods-CoinCalc
