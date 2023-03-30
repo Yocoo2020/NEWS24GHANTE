@@ -1,0 +1,2 @@
+# コイン電卓（CoinCalculator）
+コイン電卓（CoinCalculatorはビットコインのリアルタイム価格の確認及び
