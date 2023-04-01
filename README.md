@@ -12,4 +12,8 @@
 1. `https://github.com/vkdlxh/CoinCalculator.git`
 2. `cd CoinCalculator`
 3. `pod install` (requires [CocoaPods](https://cocoapods.org))
-4. Open `CoinCalculator.xcworkspace` in Xcode 
+4. Open `CoinCalculator.xcworkspace` in Xcode 9.0 or higher.
+
+## Screenshots
+  <img src="https://github.com/vkdlxh/CoinCalculator/raw/master/CoinCalculator/CoinCalculator/Supporting%20Files/images/ScreenShots/RateView.png" width="250"> <span>     </span>
+<img src="https://github.com/vkdlxh/CoinCalculat
