@@ -16,4 +16,6 @@
 
 ## Screenshots
   <img src="https://github.com/vkdlxh/CoinCalculator/raw/master/CoinCalculator/CoinCalculator/Supporting%20Files/images/ScreenShots/RateView.png" width="250"> <span>     </span>
-<img src="https://github.com/vkdlxh/CoinCalculat
+<img src="https://github.com/vkdlxh/CoinCalculator/raw/master/CoinCalculator/CoinCalculator/Supporting%20Files/images/ScreenShots/ExchangeView.png" width="250">
+   <BR>
+  <img src="https://github.com/vkdlxh/CoinCalculator/raw/master/CoinCalculator/CoinCalculator/Supporting%20Files/images/Sc
